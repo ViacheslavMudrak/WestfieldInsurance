@@ -1,0 +1,45 @@
+﻿---
+ID: "1dc2060e-28d8-48e0-88d5-da68149e9153"
+Parent: "47ce1316-00f8-4811-af60-25a91601e8eb"
+Template: "2a86a425-e741-4d54-93b4-f411f57b1e3f"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Prerak Test/Content Details 2
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{06531D27-A39C-4726-BE95-29CDAE005B22}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a5afef4-87ba-49c6-a78e-6afc4a9ad7ff"
+      Hint: PageTitle
+      Value: Content Details 2
+    - ID: "1db9908b-4509-4846-8461-e155ef730fc2"
+      Hint: Title
+      Value: Content Details 2
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231120T200327Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8a3e6082-7126-4f92-9051-a0480ddd9076"
+      Hint: BreadcrumbTitle
+      Value: Content Details 2
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12d24cf8-2254-45e6-b9d7-eada9823c18b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231214T215108Z

@@ -1,0 +1,13 @@
+@use 'src/sass/abstracts' as *;
+
+.imageWrapper {
+  margin: rem(20) 0;
+  img {
+    margin-bottom: rem(10);
+  }
+}
+
+.caption {
+  font-size: rem(14);
+  color: $color-secondary;
+}

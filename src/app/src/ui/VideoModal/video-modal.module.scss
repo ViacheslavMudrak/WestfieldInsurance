@@ -1,0 +1,32 @@
+@use 'src/sass/abstracts' as *;
+
+.videoModal {
+  button {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .iframeWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 80vw;
+
+    iframe {
+      border: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media (min-width: $bp) {
+      width: 50vw;
+    }
+  }
+
+  .transcriptLink {
+    // styles in tsx files bc of coveo atomic. below style does nothing
+    font-size: 18px;
+  }
+}

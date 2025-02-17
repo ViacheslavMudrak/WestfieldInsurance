@@ -1,0 +1,215 @@
+@use 'src/sass/abstracts' as *;
+
+.comparisonMatrix {
+  background: $bg-gray;
+  padding: 60px 0;
+  min-width: 100%;
+  .label {
+    color: $red-dark;
+    font-size: rem(14);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2.1px;
+  }
+
+  .title {
+    color: $color-secondary;
+    font-size: rem(30);
+    font-weight: 300;
+    text-align: center;
+    margin: 0 0 10px;
+  }
+
+  .matrix {
+    margin-top: 40px;
+    min-width: 100%;
+
+    .matrixCell,
+    .colTitle {
+      text-align: center;
+    }
+
+    .matrixCell {
+      height: 65px;
+      border: 1px solid $bg-gray;
+      background: $white;
+      display: table-cell;
+    }
+
+    th:has([class*='colTitle']) {
+      background-color: $color-secondary;
+      position: relative;
+      &::before {
+        content: '';
+        box-shadow: $box-shadow-wider;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+
+    th:has([class*='colTitle'][class*='accent']) {
+      background-color: $red-dark;
+    }
+
+    .colTitle {
+      color: white;
+      font-size: rem(14);
+      font-weight: 700;
+      line-height: 16px;
+      padding: 14px 20px;
+      display: inline-block;
+      width: 100%;
+
+      &.accent {
+        /*keep it*/
+        background-color: $red-dark;
+      }
+    }
+
+    .rowTitle {
+      text-align: center;
+      display: table-cell;
+      color: $color-secondary;
+      font-size: rem(16);
+      font-weight: 700;
+      line-height: 20px;
+      grid-column: span 2;
+      height: 65px;
+      max-width: 80%;
+      margin: auto;
+      padding-right: 30px;
+    }
+
+    :global .close_svg__icon {
+      height: 20px;
+      width: 20px;
+    }
+
+    :global .check_svg__icon {
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  @media (max-width: $bp-md-max) {
+    &.hideMatrix:not(.zoomed) {
+      display: none;
+    }
+    .tableWrap {
+      overflow-x: auto;
+      margin: 0 -20px;
+      padding-left: 20px;
+    }
+    &.zoomed {
+      width: 100%;
+      .tableWrap {
+        overflow-x: auto;
+      }
+      .matrix {
+        min-width: 100%;
+      }
+    }
+    .matrix {
+      overflow-x: auto;
+    }
+    &.showMobileMatrix:not(.zoomed) {
+      .tableWrap {
+        padding-right: 20px;
+        padding-bottom: 50px;
+      }
+      .matrix {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto repeat(1fr);
+        box-shadow: $box-shadow-wider;
+      }
+      thead,
+      tbody,
+      td,
+      th,
+      tr {
+        display: block;
+      }
+      tr {
+        width: 100%;
+        display: flex;
+      }
+      thead {
+        grid-area: 1/1/2/3;
+        th {
+          flex: 0 0 50%;
+        }
+      }
+      tbody {
+        grid-area: 2/1 / auto/3;
+        tr {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .rowTitle {
+          flex: 0 0 100%;
+          padding-right: 0;
+        }
+        .matrixCell {
+          flex: 0 0 50%;
+        }
+        .rowTitle,
+        .matrixCell {
+          display: flex;
+          flex-direction: column;
+          place-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $bp-md) {
+    padding: 80px 0;
+
+    .title {
+      font-size: rem(36);
+    }
+
+    .matrix {
+      box-shadow: none;
+      .rowTitle {
+        height: 50px;
+        padding: 0 20px;
+        font-size: rem(18);
+        max-width: unset;
+        margin: unset;
+        text-align: left;
+      }
+
+      .colTitle {
+        font-size: rem(18);
+        line-height: 24px;
+      }
+    }
+
+    .matrixCell {
+      height: 50px;
+    }
+
+    .matrixCell,
+    .colTitle {
+      text-align: center;
+      position: relative;
+      overflow: visible;
+      line-height: 28px;
+    }
+  }
+
+  @media (min-width: $bp-lg) {
+    .title {
+      font-size: rem(48);
+    }
+  }
+}

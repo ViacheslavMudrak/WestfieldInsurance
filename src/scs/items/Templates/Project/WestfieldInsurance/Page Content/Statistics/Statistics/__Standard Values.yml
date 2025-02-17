@@ -1,0 +1,27 @@
+﻿---
+ID: "d890063f-6114-4236-956f-fab5cce48c63"
+Parent: "97c2a2a2-f436-4e07-ac4f-befd1ebbf98f"
+Template: "97c2a2a2-f436-4e07-ac4f-befd1ebbf98f"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Statistics/Statistics/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{657A1882-DCA0-4915-845E-51211AE284E9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T185150Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ea4768c-b251-4534-b5f5-d5ae67e70dba"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231101T141100Z

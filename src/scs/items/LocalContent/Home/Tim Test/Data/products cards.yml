@@ -1,0 +1,45 @@
+﻿---
+ID: "ad3400ae-27af-48a0-a83f-28bb2024a018"
+Parent: "5adbe864-5685-4947-8095-dc2cf18ea1f9"
+Template: "0db034da-34f9-44d5-a71c-7c1ca6a27119"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Data/products cards
+BranchID: "40bf9474-c9e4-4afc-9016-f83a726be42b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{13DDC0AB-CB30-49DD-8270-3B7FB9326D31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240221T200142Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: product cards
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02c5f99e-f22d-47c7-805a-b36a4f826e33"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d924090c-af67-4b25-8c11-55f80c1c66e1"
+      Hint: Label
+      Value: test label
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240221T200200Z

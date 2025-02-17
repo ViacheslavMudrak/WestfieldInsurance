@@ -1,0 +1,515 @@
+@use '../abstracts' as *;
+
+// class names that will only ever be used in Sitecore Pages. these are needed for the auto updating of styles
+.pages-label {
+  text-transform: unset !important;
+}
+
+.dark-theme {
+  background-color: $bg-gray !important;
+}
+
+.light-theme {
+  background-color: $white !important;
+}
+
+.accent-theme {
+  color: $white;
+
+  .pages-label {
+    color: $white;
+  }
+
+  .accent-background {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: -200px;
+    z-index: -1;
+    background: $color-primary;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      background: $color-primary;
+      background: linear-gradient(
+        90deg,
+        $color-primary 50%,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    img {
+      display: block;
+      object-fit: cover;
+      margin-left: auto;
+      opacity: 0.5;
+      height: 100%;
+    }
+  }
+}
+
+.pages-alert-banner {
+  color: inherit;
+  &.accent-theme {
+    background-color: $color-yellow-dark !important;
+  }
+  &.dark-theme {
+    background-color: $red-dark !important;
+    color: $white;
+  }
+  &.light-theme {
+    background-color: $color-secondary-lightest !important;
+  }
+}
+
+.primary-button {
+  .cta-button {
+    background: $red-dark;
+    color: $white;
+
+    &:hover,
+    &:focus {
+      background: $red-dark;
+      color: $white;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+}
+
+.outline-button {
+  .cta-button {
+    background: transparent;
+    color: $red-dark;
+    border: 2px solid $red-dark;
+
+    &:hover,
+    &:focus {
+      background: $red-dark;
+      color: $white;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+}
+
+.secondary-button {
+  .cta-button {
+    background: $color-secondary;
+    color: $white;
+
+    &:hover,
+    &:focus {
+      background: $red-dark;
+      color: $white;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+}
+
+.outline-white-button {
+  .cta-button {
+    background: transparent;
+    color: $white;
+    border: 2px solid $white;
+
+    &:hover,
+    &:focus {
+      background: $white;
+      color: $color-secondary;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+}
+
+.pages-richtext {
+  font-size: inherit !important;
+
+  p {
+    font-size: inherit !important;
+  }
+}
+
+.pages-disclaimer {
+  font-size: 12px !important;
+
+  p {
+    font-size: 12px !important;
+  }
+}
+
+.pages-blockquote {
+  .pages-richtext {
+    padding-left: rem(26) !important;
+
+    &::before {
+      content: '' !important;
+      display: inline-block !important;
+      width: rem(6) !important;
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      bottom: 0 !important;
+      background-color: $color-primary !important;
+    }
+
+    font-size: rem(20);
+    line-height: 1.2;
+    position: relative;
+    font-weight: 300;
+    margin: rem(20) 0;
+
+    p {
+      font-size: inherit;
+      line-height: inherit;
+    }
+
+    @media (min-width: $bp-md) {
+      font-size: rem(21);
+
+      p {
+        font-size: inherit;
+      }
+    }
+
+    @media (min-width: $bp) {
+      font-size: rem(24);
+
+      p {
+        font-size: inherit;
+      }
+    }
+  }
+}
+
+.pages-pullquote {
+  .pages-richtext {
+    padding-left: rem(58) !important;
+
+    &::before {
+      content: '' !important;
+      background-image: url("data:image/svg+xml,%3Csvg width='38' height='36' viewBox='0 0 38 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_2739_7899)'%3E%3Cpath d='M0 36V19.4914L6.93365 0H15.3595L9.73798 19.4786H15.3595V35.9871H0V36ZM22.6405 36V19.4914L29.5741 0H38L32.3785 19.4786H38V35.9871H22.6405V36Z' fill='%23E03100'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2739_7899'%3E%3Crect width='38' height='36' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A") !important;
+      background-size: contain !important;
+      background-repeat: no-repeat !important;
+      background-color: transparent !important;
+      display: inline-block !important;
+      width: rem(38) !important;
+      height: rem(36) !important;
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+    }
+
+    font-size: rem(20);
+    line-height: 1.2;
+    position: relative;
+    font-weight: 300;
+    margin: rem(20) 0;
+
+    p {
+      font-size: inherit;
+      line-height: inherit;
+    }
+
+    @media (min-width: $bp-md) {
+      font-size: rem(21);
+
+      p {
+        font-size: inherit;
+      }
+    }
+
+    @media (min-width: $bp) {
+      font-size: rem(24);
+
+      p {
+        font-size: inherit;
+      }
+    }
+  }
+}
+
+.component.pages-hero-banner {
+  background: $bg-gray !important;
+  color: $color-secondary !important;
+  position: relative;
+  overflow: hidden;
+
+  & > svg {
+    display: none;
+  }
+
+  @media (min-width: $bp-md) {
+    &:not(.overlay-present) {
+      .pages-image {
+        align-self: flex-end;
+        right: 100px;
+        max-width: 500px;
+      }
+
+      :global .container {
+        position: unset;
+        &::after {
+          content: '';
+        }
+      }
+    }
+
+    & > svg {
+      position: absolute;
+      top: 5%;
+      left: 500px;
+      height: 125%;
+      display: block;
+    }
+
+    .container {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .pages-title {
+      font-size: rem(64);
+      line-height: 75px;
+    }
+
+    .rich-text {
+      font-size: rem(16);
+      line-height: 24px;
+    }
+  }
+
+  &.dark-theme {
+    background: $color-secondary !important;
+    .pages-content {
+      .pages-title,
+      .rich-text {
+        color: $white;
+      }
+    }
+
+    .agentSearchWrapper {
+      background: $white;
+
+      @media (min-width: $bp-xl), (max-width: $bp-md-max) {
+        .as-title {
+          border-color: $color-secondary-lightest;
+        }
+      }
+    }
+  }
+}
+
+.overlay-present {
+  @media (min-width: $bp-md) {
+    & > svg {
+      display: none !important;
+    }
+
+    .container {
+      position: static;
+      &::after {
+        content: '';
+        background: $bg-gray;
+        background: linear-gradient(
+          90deg,
+          $bg-gray 50%,
+          rgba(0, 0, 0, 0) 80%,
+          rgba(0, 0, 0, 0) 100%
+        );
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    .pages-image {
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &.dark-theme {
+      .container {
+        &::after {
+          content: '';
+          background: $color-secondary;
+          background: linear-gradient(
+            90deg,
+            $color-secondary 50%,
+            rgba(0, 0, 0, 0) 80%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+      }
+    }
+  }
+}
+
+.pages-services-cards {
+  .pages-label {
+    color: $red-dark !important;
+  }
+
+  .pages-title {
+    color: $color-secondary !important;
+  }
+
+  &.accent-theme {
+    .pages-label {
+      color: $white !important;
+    }
+
+    .pages-title {
+      color: $white !important;
+    }
+  }
+}
+
+.pages-statistics {
+  color: $color-secondary !important;
+
+  .pages-card {
+    border-color: $color-secondary-light !important;
+  }
+
+  .pages-content {
+    color: $color-secondary !important;
+    text-transform: unset !important;
+    width: 300px;
+  }
+  &.dark-theme {
+    background-color: $color-secondary !important;
+    color: $white !important;
+
+    .pages-card {
+      border-color: $color-secondary-light !important;
+    }
+
+    .pages-content {
+      color: $white !important;
+    }
+  }
+  &.accent-theme {
+    color: $color-primary !important;
+    background-color: $white !important;
+
+    .pages-card {
+      border-color: $color-primary !important;
+    }
+  }
+}
+
+.pages-interior-hero {
+  &.light-theme {
+    background: $bg-gray !important;
+    color: $color-secondary !important;
+
+    .pages-content {
+      .pages-title,
+      .rich-text {
+        color: $color-secondary !important;
+      }
+    }
+  }
+
+  @media (min-width: $bp-md) {
+    &.overflow-light::after {
+      background: $white !important;
+    }
+
+    &.overflow-dark::after {
+      background: $bg-gray !important;
+    }
+
+    &.overflow-gray::after {
+      background: $color-secondary !important;
+    }
+  }
+
+  &.dark-theme {
+    background: $color-secondary !important;
+    color: $white !important;
+
+    .pages-content {
+      .pages-title,
+      .rich-text {
+        color: $white !important;
+      }
+    }
+  }
+  &::after {
+    height: 0px !important;
+  }
+}
+
+.pages-feature-banner-content {
+  width: 100%;
+}
+
+.pages-card-link {
+  &::before {
+    display: none;
+  }
+  a {
+    color: $color-secondary !important;
+    text-decoration: none;
+  }
+}
+
+.pages-comparison-matrix-first-header {
+  background-color: $color-secondary !important;
+}
+
+.accent-comparison-matrix {
+  .pages-comparison-matrix-first-header {
+    background-color: $red-dark !important;
+  }
+}
+
+.pages-no-padding {
+  .pages-richtext {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.pages-padding-top {
+  .pages-richtext {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+}
+
+.pages-padding-bottom {
+  .pages-richtext {
+    padding-bottom: 60px;
+    padding-top: 0px;
+  }
+}

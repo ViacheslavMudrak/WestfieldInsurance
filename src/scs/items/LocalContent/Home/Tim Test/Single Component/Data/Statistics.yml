@@ -1,0 +1,26 @@
+﻿---
+ID: "24dc9a27-4885-4635-b765-f39b4aafa017"
+Parent: "55759745-b91e-4c8e-b80b-a2bc34607a0b"
+Template: "97c2a2a2-f436-4e07-ac4f-befd1ebbf98f"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Data/Statistics
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231103T091032Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Statistics
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c7f387b-d7c7-49ee-a3c2-999047fbc793"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231103T091032Z

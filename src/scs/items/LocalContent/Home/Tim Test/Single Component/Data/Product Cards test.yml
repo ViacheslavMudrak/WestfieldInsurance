@@ -1,0 +1,23 @@
+﻿---
+ID: "af1f67ea-c6b5-416b-8eb1-d55c3a2361a5"
+Parent: "55759745-b91e-4c8e-b80b-a2bc34607a0b"
+Template: "0db034da-34f9-44d5-a71c-7c1ca6a27119"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Data/Product Cards test
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240117T224719Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "181987b9-7895-4f79-bc86-86cbbdf1bd82"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240117T224719Z

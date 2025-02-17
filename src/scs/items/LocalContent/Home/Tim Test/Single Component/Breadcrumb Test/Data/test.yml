@@ -1,0 +1,26 @@
+﻿---
+ID: "4983d8c2-055b-4e4f-84fd-b1cb2cc3ee43"
+Parent: "11b4e7bb-e9e8-40c8-a1c9-6c8c02f84bf6"
+Template: "1be999a8-5a98-4631-8ff2-2fa91d847e9b"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Breadcrumb Test/Data/test
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240121T113131Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: test
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abb7a00a-01df-4ff9-96c2-6c992a9befa1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240121T113131Z

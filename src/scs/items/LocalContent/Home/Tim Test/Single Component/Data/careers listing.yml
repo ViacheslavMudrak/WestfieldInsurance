@@ -1,0 +1,39 @@
+﻿---
+ID: "e707529f-c1b9-4c48-bd97-19ce354468eb"
+Parent: "55759745-b91e-4c8e-b80b-a2bc34607a0b"
+Template: "10863516-0c3c-48f8-bc00-0951fd865f82"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Data/careers listing
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231106T211735Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Build your future at Westfield
+    - ID: "5c6acac4-a40e-4786-8a36-31d4cc2fca63"
+      Hint: Label
+      Value: career search
+    - ID: "850c63b4-39f6-47dc-8f07-6da89411d7d1"
+      Hint: Copy
+      Value: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f211726-5f86-4587-8355-fc689cfaff2f"
+    - ID: "a642e4df-20a3-43c5-804d-d929a797eb9e"
+      Hint: CtaLink
+      Value: |
+        <link linktype="internal" id="985f42cf-963d-4bcd-a2b3-a3f561cac7cb" anchor="" querystring="" target="" class="" text="All Careers" title=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231122T171933Z

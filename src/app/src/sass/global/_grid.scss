@@ -1,0 +1,62 @@
+@use '../abstracts' as *;
+
+/** Setting variables so Bootstrap can auto-generate it's own classes. For reference see:
+* https://getbootstrap.com/docs/5.2/layout/containers/#sass
+* https://getbootstrap.com/docs/5.2/layout/grid/#sass
+* https://getbootstrap.com/docs/5.2/layout/gutters/#change-the-gutters
+* https://getbootstrap.com/docs/5.2/layout/breakpoints/#sass
+* https://getbootstrap.com/docs/5.2/customize/options/
+*/
+
+$prefix: 'bs-' !default;
+$enable-grid-classes: true !default;
+$enable-container-classes: true !default;
+$enable-cssgrid: false !default;
+$grid-columns: 12 !default;
+$spacer: $gutters !default;
+$grid-gutter-width: $gutters !default;
+$container-padding-x: $grid-gutter-width !default;
+$grid-row-columns: 6 !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: $bp-sm,
+  md: $bp-md,
+  lg: $bp-lg,
+  xl: $bp-xl,
+  xxl: $bp-xxl,
+) !default;
+
+$container-max-widths: (
+  sm: $bp-sm,
+  md: $bp-md,
+  lg: $bp-lg,
+  xl: $bp-xl,
+  xxl: $bp-xxl,
+) !default;
+
+$gutters: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+/* Imports that will generate the neccesary classes */
+
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/containers';
+@import 'node_modules/bootstrap/scss/grid';
+
+/* Custom overrides */
+
+.container .container {
+  padding: 0;
+}
+
+.col-center {
+  margin: 0 auto;
+}

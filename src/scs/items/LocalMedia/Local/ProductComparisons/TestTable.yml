@@ -1,0 +1,48 @@
+﻿---
+ID: "0d07428e-e5fb-4c3c-a564-825949206a3d"
+Parent: "367df32a-c227-4d44-bb99-d12c9e959e74"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: /sitecore/media library/Project/WestfieldInsurance/WestfieldInsurance/Local/ProductComparisons/TestTable
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/0D07428EE5FB4C3CA564825949206A3D.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "4935a9d8-97d2-416e-b61d-5cf775ad6e46"
+  Value: Q2F0ZWdvcmllcyxQcm9kdWN0IDEsUHJvZHVjdCAyLFByb2R1Y3QgMw0KQ2F0ZWdvcnkgMSxZZXMsWWVzLE5vDQpDYXRlZ29yeSAyLFllcyxObyxObw0K
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 87
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/csv
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: csv
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240104T185236Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3cff4059-c745-48e7-8f2c-91a3e240bb61"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240104T185236Z

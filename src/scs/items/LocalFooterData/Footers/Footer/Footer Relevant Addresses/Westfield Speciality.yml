@@ -1,0 +1,57 @@
+﻿---
+ID: "5545a45b-8442-4f0e-9273-67e63aca20ba"
+Parent: "e4819a48-ee1f-49d5-9776-ee1455fc5521"
+Template: "d4bb8e49-1d7f-4f00-a9dd-4f119a413490"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Footers/Footer/Footer Relevant Addresses/Westfield Speciality
+SharedFields:
+  - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+    Hint: __Sortorder
+    Value: 999
+Languages:
+  - Language: en
+    Versions:
+      - Version: 1
+        Fields:
+          - ID: "246d51a5-2152-45fb-aef3-d7b11a7fae62"
+            Hint: AddressLine2
+            Value: 23 Camomile Street
+          - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+            Hint: __Created
+            Value: 20231004T212052Z
+          - ID: "28234657-59ed-488b-b39f-1ab11633a97a"
+            Hint: AddressLine1
+            Value: Camomile Court
+          - ID: "28f1a4b9-b353-4afd-9ac4-d4e3a0fa2b6c"
+            Hint: City
+            Value: London
+          - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+            Hint: __Owner
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+            Hint: __Created by
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "6538a5e4-7214-40ee-95fd-d7a99e9aa9c3"
+            Hint: Country
+            Value: England
+          - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+            Hint: __Revision
+            Value: "9ce0fa29-2682-4885-8ad8-1e629b16d2a4"
+          - ID: "8d992325-becf-486d-bec0-37b077bb696b"
+            Hint: Title
+            Value: Westfield Speciality (International)
+          - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+            Hint: __Updated by
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "c038a991-a947-42ff-a57d-0ab015253953"
+            Hint: MapsLink
+            Value: |
+              <link linktype="external" url="https://www.google.com/maps/place/Westfield+Specialty+Insurance/@51.5158479,-0.0828295,17z/data=!3m1!4b1!4m6!3m5!1s0x48761d523ecf052f:0x3b0f78fcb739def0!8m2!3d51.5158446!4d-0.0802546!16s%2Fg%2F11tx705fhq?entry=ttu" />
+          - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+            Hint: __Updated
+            Value: 20231016T161627Z
+          - ID: "f532d63c-9295-4db9-a775-ddbe71666d4c"
+            Hint: PostalCode
+            Value: EC3A 7LL

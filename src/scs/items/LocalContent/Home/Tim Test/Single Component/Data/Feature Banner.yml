@@ -1,0 +1,38 @@
+﻿---
+ID: "78aa7f3d-f0b3-431b-816e-6858745fb28e"
+Parent: "55759745-b91e-4c8e-b80b-a2bc34607a0b"
+Template: "c318ad7e-e0c5-43be-9453-63980805e32c"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Data/Feature Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13b16441-bda4-48dc-8c1c-634e7085ddba"
+      Hint: Label
+      Value: test
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231018T155658Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: test
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e8ac4785-753a-4f8e-b13b-3ba4023c30cf"
+    - ID: "a642e4df-20a3-43c5-804d-d929a797eb9e"
+      Hint: CtaLink
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231103T174341Z
+    - ID: "ea562e4c-1907-48a3-86d9-4337e7b0825e"
+      Hint: RichTextCopy
+      Value: <p>dfadsafdsafds</p>

@@ -1,0 +1,26 @@
+﻿---
+ID: "f10c9ce0-7586-45fc-a977-41460e5a8e20"
+Parent: "11b4e7bb-e9e8-40c8-a1c9-6c8c02f84bf6"
+Template: "ec96bf56-480e-4526-8da0-dd7dd5365ec3"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Breadcrumb Test/Data/faqs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240119T222437Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: faqs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13a3c0c5-c5e9-415b-af2c-55cc668b6f55"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240119T222437Z

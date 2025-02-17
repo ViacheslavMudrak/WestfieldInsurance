@@ -1,0 +1,39 @@
+@use 'src/sass/abstracts' as *;
+
+.contact {
+  margin: 0 40px 40px 0;
+
+  @media (min-width: $bp-md) {
+    margin: 0 0 20px 0;
+  }
+
+  @media (min-width: $bp-xl) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+.contactLine {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px;
+
+  a {
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  svg {
+    margin-right: 8px;
+    height: 24px;
+    width: 24px;
+  }
+
+  @media (min-width: $bp-xl) {
+    margin: 0 0 40px;
+  }
+}

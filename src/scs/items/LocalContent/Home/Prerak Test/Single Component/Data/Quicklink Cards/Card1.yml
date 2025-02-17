@@ -1,0 +1,41 @@
+﻿---
+ID: "c5da1dda-6a06-419c-94ba-fb90e9c3d963"
+Parent: "87258406-a798-4e20-bddf-2e389d3e046a"
+Template: "424c020e-75ae-4c8b-9318-6c348f07d356"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Prerak Test/Single Component/Data/Quicklink Cards/Card1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="" target="" class="" text="Card Title 1" title=""/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231024T142601Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Card1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8481b363-05d8-4dcc-b873-4349e4b5cbde"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231024T161946Z
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: 

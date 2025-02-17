@@ -1,0 +1,23 @@
+﻿---
+ID: "b4719657-dedb-4705-892a-4826015ceabd"
+Parent: "e89af787-ec41-4f7d-b7af-de17a43456b8"
+Template: "0f1e9a47-7fb6-45c8-849c-408a75c51628"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Rich Text Test/Data/Hero Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231117T175832Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1d4c53c-6867-4815-8a7c-4761d33c31d0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231117T175832Z

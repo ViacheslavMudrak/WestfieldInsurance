@@ -1,0 +1,31 @@
+﻿---
+ID: "ef3e405b-db73-47d5-8dfb-8f006055db2e"
+Parent: "37534e75-84eb-4f35-b365-70925ae84504"
+Template: "9055a29b-920a-4711-a016-dc8990dc2dcc"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Career Listings
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231031T135543Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3ec02b20-3a64-4e1f-b550-58d585fe1754"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231031T135543Z

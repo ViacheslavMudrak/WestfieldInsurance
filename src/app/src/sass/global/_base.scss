@@ -1,0 +1,333 @@
+@use '../abstracts' as *;
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  // width: fit-content;
+  // min-width: 100%;
+  // box-sizing: border-box;
+
+  &.modal-open,
+  &:has(.facetsMobileShown) {
+    overflow: hidden;
+  }
+
+  @media (max-width: $bp-md-max) {
+    &.a11y-nav-menu-open {
+      overflow: hidden;
+      height: 100%;
+    }
+  }
+}
+
+main:has(atomic-search-interface) {
+  background-color: $white;
+}
+
+.sr-only {
+  @include sr-only();
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: underline;
+  transition: $transition;
+
+  &:hover,
+  &:focus {
+    color: $color-secondary;
+  }
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+svg {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  transition: $transition;
+}
+
+// Reduced motion for a11y users
+// https://developers.google.com/web/updates/2019/03/prefers-reduced-motion
+// Testable with Firefox on Windows 10: Settings > Ease of Access > Display > Show animations
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+
+.rich-text {
+  font-size: rem(16);
+  color: $color-secondary;
+  line-height: 1.5;
+
+  .rte-align-right {
+    text-align: right;
+  }
+
+  .rte-align-left {
+    text-align: left;
+  }
+
+  .rte-align-center {
+    text-align: center;
+  }
+
+  .rte-align-justify {
+    text-align: justify;
+  }
+
+  p {
+    font-size: rem(16);
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: underline;
+    color: inherit;
+
+    &:focus,
+    &:hover {
+      text-shadow: 0.5px 0 0 currentColor;
+      color: inherit;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+  }
+  h1 {
+    font-size: rem(36);
+    line-height: rem(42);
+    font-weight: 300;
+  }
+  h2 {
+    font-size: rem(30);
+    line-height: rem(35);
+    font-weight: 300;
+  }
+  h3 {
+    font-size: rem(24);
+    line-height: rem(28);
+    font-weight: 500;
+  }
+  h4 {
+    font-size: rem(20);
+    line-height: rem(23);
+    font-weight: 700;
+  }
+  h5 {
+    font-size: rem(18);
+    line-height: rem(22);
+    font-weight: 300;
+  }
+  h6 {
+    font-size: rem(16);
+    line-height: rem(19);
+    font-weight: 700;
+  }
+  @media (min-width: $bp-md) {
+    h1 {
+      font-size: rem(48);
+      line-height: rem(56);
+    }
+    h2 {
+      font-size: rem(36);
+      line-height: rem(42);
+    }
+    h3 {
+      font-size: rem(28);
+      line-height: rem(33);
+    }
+    h4 {
+      font-size: rem(21);
+      line-height: rem(25);
+    }
+    h5 {
+      font-size: rem(20);
+      line-height: rem(24);
+    }
+    h6 {
+      font-size: rem(16);
+      line-height: rem(19);
+    }
+  }
+  @media (min-width: $bp) {
+    font-size: rem(16);
+
+    p {
+      font-size: rem(16);
+    }
+
+    h1 {
+      font-size: rem(64);
+      line-height: rem(75);
+    }
+    h2 {
+      font-size: rem(48);
+      line-height: rem(56);
+    }
+    h3 {
+      font-size: rem(32);
+      line-height: rem(38);
+    }
+    h4 {
+      font-size: rem(24);
+      line-height: rem(28);
+    }
+    h5 {
+      font-size: rem(22);
+      line-height: rem(24);
+    }
+    h6 {
+      font-size: rem(18);
+      line-height: rem(21);
+    }
+  }
+  @media (min-width: $bp-xl) {
+    font-size: rem(18);
+
+    p {
+      font-size: rem(18);
+    }
+  }
+}
+
+header {
+  atomic-search-box {
+    max-width: 100%;
+    width: 100% !important;
+    @media (min-width: $bp-md) {
+      max-width: calc(100% - 2rem);
+    }
+  }
+
+  atomic-search-box::part(wrapper) {
+    border: 1px solid $orange-bright;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 40px;
+    @media (min-width: $bp-md) {
+      border: none;
+      border-radius: 0;
+      padding-left: 0;
+    }
+  }
+
+  atomic-search-box::part(suggestions-wrapper) {
+    border-radius: 10px;
+    border-color: #949494;
+    color: #4d514d;
+    background: white;
+    margin-top: 4px;
+  }
+
+  atomic-search-box::part(input) {
+    padding-left: 0;
+    color: $color-secondary;
+    @media (min-width: $bp-md) {
+      border-bottom: 2px solid $red-dark;
+      font-size: rem(24);
+    }
+  }
+
+  atomic-search-box::part(submit-button) {
+    @media (min-width: $bp-md) {
+      margin-left: rem(15);
+      background-color: $red-dark;
+      color: white;
+      padding-left: 30px;
+      padding-right: 30px;
+      display: flex;
+      flex: 1 0 auto;
+      max-width: calc(7ch + 60px);
+      font-size: rem(14);
+      line-height: rem(16);
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      border-radius: rem(4);
+      &::before {
+        content: 'SEARCH';
+        display: block;
+      }
+      &:focus,
+      &:hover {
+        background: white;
+        color: $red-dark;
+        border: 2px solid $red-dark;
+      }
+    }
+    @media (min-width: $bp-md) {
+      max-width: rem(210);
+    }
+  }
+
+  atomic-search-box::part(submit-icon) {
+    @media (min-width: $bp-md) {
+      display: none;
+    }
+  }
+}
+
+tr:has(td[class*='comparison-matrix_matrixCell__']:nth-child(3):last-child) th {
+  @media (min-width: $bp-md) {
+    text-align: center;
+  }
+}
+
+atomic-load-more-results::part(load-more-results-button) {
+  appearance: none;
+  height: 50px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d62700;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+atomic-load-more-results::part(load-more-results-button):hover,
+atomic-load-more-results::part(load-more-results-button):focus {
+  background: #c81e00;
+}

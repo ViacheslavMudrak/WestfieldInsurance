@@ -1,0 +1,42 @@
+@use 'src/sass/abstracts' as *;
+
+.hero {
+  position: relative;
+  background: $color-primary;
+}
+
+.image {
+  display: none;
+
+  img {
+    object-fit: cover;
+  }
+
+  @media (min-width: $bp) {
+    display: initial;
+  }
+}
+
+.inner {
+  position: relative;
+  background: $color-primary;
+  color: $white;
+  padding: rem(20);
+}
+
+.title {
+  font-size: rem(30);
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.content {
+  margin: 0 0 1rem;
+}
+
+.btn {
+  a,
+  button {
+    color: $black;
+  }
+}

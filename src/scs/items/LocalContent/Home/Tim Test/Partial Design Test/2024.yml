@@ -1,0 +1,23 @@
+﻿---
+ID: "70c79975-8e8f-40c8-8096-d1c5fee8ce3e"
+Parent: "82ea7f31-eb28-4295-9957-9d37440c8f62"
+Template: "a7fff3b1-0236-4cb1-a26c-9f9d54ff42cb"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Partial Design Test/2024
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240322T164311Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ccb0261c-90bb-4546-99cf-6942112cb3c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240322T164311Z

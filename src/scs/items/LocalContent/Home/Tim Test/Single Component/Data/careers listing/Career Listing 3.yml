@@ -1,0 +1,42 @@
+﻿---
+ID: "16b9056a-80a5-4c89-9ae7-6b26dcf07cf9"
+Parent: "e707529f-c1b9-4c48-bd97-19ce354468eb"
+Template: "c51cd8a9-3878-4427-b07b-2104972c753e"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Data/careers listing/Career Listing 3
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231106T211800Z
+    - ID: "28f1a4b9-b353-4afd-9ac4-d4e3a0fa2b6c"
+      Hint: City
+      Value: Chicago
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Job Title 3
+    - ID: "5c6acac4-a40e-4786-8a36-31d4cc2fca63"
+      Hint: Label
+      Value: New
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "106d5dcc-f1b2-44c5-9850-bde2f8673100"
+    - ID: "9359bd73-e027-4eeb-8c7c-c8bf12029d3f"
+      Hint: StateOrProvince
+      Value: IL
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231106T211908Z

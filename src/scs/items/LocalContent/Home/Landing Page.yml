@@ -1,0 +1,34 @@
+﻿---
+ID: "d49b516c-fb9c-4aa7-b97c-7fe085d71d84"
+Parent: "985f42cf-963d-4bcd-a2b3-a3f561cac7cb"
+Template: "e96e6d40-4279-4c0b-8ef7-7c3b46f3fa85"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Landing Page
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{AEBA9770-3FD2-4647-B340-E79E290F8BB7}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1db9908b-4509-4846-8461-e155ef730fc2"
+      Hint: Title
+      Value: Landing Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231013T163356Z
+    - ID: "8a3e6082-7126-4f92-9051-a0480ddd9076"
+      Hint: BreadcrumbTitle
+      Value: Landing Page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5370dd4-c201-4b86-b223-c3f7c6ae9684"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240214T194619Z

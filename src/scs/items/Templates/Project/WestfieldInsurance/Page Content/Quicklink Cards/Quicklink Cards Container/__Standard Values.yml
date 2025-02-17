@@ -1,0 +1,30 @@
+﻿---
+ID: "a6c47d31-32e1-4f5a-8f59-0dc4778a4553"
+Parent: "f6766580-f286-41f6-be7f-68917d77660c"
+Template: "f6766580-f286-41f6-be7f-68917d77660c"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Quicklink Cards/Quicklink Cards Container/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{424C020E-75AE-4C8B-9318-6C348F07D356}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T185150Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c04ff05-5741-47f5-8e4d-1ce4790b0883"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231024T140216Z

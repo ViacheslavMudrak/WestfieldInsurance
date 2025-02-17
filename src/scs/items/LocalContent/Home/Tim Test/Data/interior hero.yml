@@ -1,0 +1,39 @@
+﻿---
+ID: "7e9e3911-ef36-4796-b63b-c375709b8376"
+Parent: "5adbe864-5685-4947-8095-dc2cf18ea1f9"
+Template: "37975c04-337d-484b-9db6-eee6b9091f08"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Data/interior hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+      Hint: Link
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240227T203835Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Interior hero
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7fa6d147-753b-46bd-9dbc-213eb9a68edc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240228T141608Z
+    - ID: "ea562e4c-1907-48a3-86d9-4337e7b0825e"
+      Hint: RichTextCopy
+      Value: <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: |
+        <image mediaid="ffa53259-5e59-4170-8fde-4a8f2624094c" />

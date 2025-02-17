@@ -1,0 +1,90 @@
+﻿---
+ID: "445ff7c0-f475-4116-8e67-35c681bf82f4"
+Parent: "bf92de4d-ae38-4bfa-8ec0-be188590c7f7"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/WestfieldInsurance/WFI Components/Products Cards
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: ProductCards
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/box_open.png
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: |
+    query GetProductsCardsData(
+      $datasource: String!  
+      $language: String!) {
+      item(path: $datasource, language: $language) {
+        id
+        name
+          ... on ProductsCardsContainer {
+            title: field(name: "Title") {
+              jsonValue
+            }
+            label {
+              jsonValue
+            }
+              children {
+                results {
+                name
+                ... on Card {
+                  image {
+                    jsonValue
+                  }
+                  title: field(name: "Title") {
+                    jsonValue
+                  }
+                  link {
+                    jsonValue
+                  }
+                  copy {
+                    jsonValue
+                  }
+                }
+                
+              }
+            }
+          }
+      }
+    }
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Branches/Project/WestfieldInsurance/Products Cards Container with Child Item
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{3F594364-7F0B-4240-B88C-88AC705D194E}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Products Cards Container Folder']"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BA08B9E3-A2E8-4D96-A41A-53770EBDE632}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T145738Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fae58f4c-ef5f-4065-9ff5-0a8ea4b66853"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240205T192527Z

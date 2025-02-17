@@ -1,0 +1,23 @@
+﻿---
+ID: "eb427ed6-2b5e-410c-bd3a-0dde5aec8a62"
+Parent: "017d4203-6fbc-46d7-9234-10d5e36356f8"
+Template: "ce6bebde-18af-49d8-b7e6-1b42b132c66b"
+Path: /sitecore/templates/Branches/Project/WestfieldInsurance/Content Detail Navigation with Child Item/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240212T200839Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2897ab08-d315-41cb-adf8-da6a07ea7992"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240212T200839Z

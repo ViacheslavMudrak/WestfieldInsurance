@@ -1,0 +1,40 @@
+﻿---
+ID: "6f722138-fe42-4028-bfe7-56fb6fdef649"
+Parent: "4c984de6-f9d7-4e1e-b684-cfd31953f6f1"
+Template: "424c020e-75ae-4c8b-9318-6c348f07d356"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Data/Services Cards/Service Card 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231031T181227Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Service Card
+    - ID: "850c63b4-39f6-47dc-8f07-6da89411d7d1"
+      Hint: Copy
+      Value: "Disaster Relief - Learn more about lorem ipsum dolor sit amet, consectetur adip iscing elit"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59eff025-50ad-4c95-82d6-07ea7720b62b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231031T181812Z
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: |
+        <image mediaid="0254cbfe-a317-4b9d-8d74-aed4abe97d44" />

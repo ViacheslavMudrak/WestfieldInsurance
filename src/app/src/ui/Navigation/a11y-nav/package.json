@@ -1,0 +1,58 @@
+{
+  "name": "a11y-nav",
+  "version": "1.4.0",
+  "description": "Library for accessible navigations",
+  "author": "mmahandev",
+  "license": "MIT",
+  "source": "src/a11y-nav.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmahandev/a11y-nav.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmahandev/a11y-nav/issues"
+  },
+  "homepage": "https://github.com/mmahandev/a11y-nav",
+  "scripts": {
+    "dev": "vite",
+    "build": "microbundle && cp src/a11y-nav.css dist/",
+    "build:web": "vite build",
+    "test": "",
+    "prebuild": "rimraf dist",
+    "preview": "vite preview",
+    "version": "npm run build && git add .",
+    "release": "np"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/a11y-nav.js",
+  "umd:main": "./dist/a11y-nav.umd.js",
+  "module": "./dist/a11y-nav.module.js",
+  "exports": {
+    ".": {
+      "import": "./dist/a11y-nav.modern.js",
+      "require": "./dist/a11y-nav.umd.js"
+    },
+    "./dist/a11y-nav.css": {
+      "import": "./dist/a11y-nav.css",
+      "require": "./dist/a11y-nav.css"
+    }
+  },
+  "unpkg": "./dist/a11y-nav.umd.js",
+  "types": "dist/a11y-nav.d.ts",
+  "style": "dist/a11y-nav.css",
+  "amdName": "A11YNav",
+  "devDependencies": {
+    "@types/prismjs": "^1.26.0",
+    "babel-plugin-prismjs": "^2.1.0",
+    "microbundle": "^0.15.0",
+    "np": "^7.6.2",
+    "prismjs": "^1.28.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.3",
+    "vite": "^3.2.0",
+    "vite-plugin-prismjs": "^0.0.8"
+  }
+}

@@ -1,0 +1,38 @@
+﻿---
+ID: "8ef5dc5f-d7f6-4c37-a0dd-0897092e4218"
+Parent: "d0461290-4248-4e86-8c62-62a1d3c5fc5b"
+Template: "635deba3-03d4-4c06-ab43-2339c3e84d57"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Headers/Main Header/Utility Links/Agent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+      Hint: Link
+      Value: |
+        <link text="Agent" anchor="" linktype="internal" class="" title="" target="|Custom" querystring="" id="{985F42CF-963D-4BCD-A2B3-A3F561CAC7CB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231006T210200Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2d5c362-df91-4da7-bdf1-af10618df5a9"
+    - ID: "9b6f9fe7-fff3-4726-92a9-4035d5769b1b"
+      Hint: IsLogin
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231006T210212Z

@@ -1,0 +1,35 @@
+@use 'src/sass/abstracts' as *;
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 120px;
+}
+
+.headerLogo {
+  display: flex;
+  width: 210px;
+  align-items: center;
+  justify-content: flex-start;
+
+  @media (min-width: $bp) {
+    width: 288px;
+    margin-right: auto;
+  }
+}
+
+.footer {
+  background: $color-secondary;
+  box-shadow: 0 50vh 0 50vh $color-secondary;
+}
+
+.footerLogo {
+  padding: 20px 0;
+  width: 170px;
+
+  @media (min-width: $bp) {
+    padding: 30px 0;
+    width: 210px;
+  }
+}

@@ -1,0 +1,173 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapper {
+  color: $color-secondary;
+  &.bgGray {
+    background-color: $color-secondary;
+    color: $white;
+
+    .content {
+      color: $white;
+    }
+  }
+  &.accent {
+    color: $red-dark;
+  }
+}
+
+.card {
+  text-align: center;
+  padding: rem(40) rem(20) rem(37);
+  display: flex;
+  flex-direction: column;
+  &:not(:last-child) {
+    border-bottom: 2px solid $color-secondary-light;
+  }
+}
+
+.numbers {
+  font-size: rem(72);
+  line-height: 1;
+  display: inline-block;
+  margin-bottom: rem(10);
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.content {
+  font-size: rem(20);
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 0;
+  color: $color-secondary;
+
+  a {
+    color: inherit;
+    &:focus,
+    &:hover {
+      text-shadow: 0.5px 0 0 currentColor;
+      color: inherit;
+    }
+  }
+}
+
+@media (min-width: $bp-md) {
+  .cardsWrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: rem(60) rem(20);
+    row-gap: 45px;
+  }
+  .card {
+    flex: 0 0 33%;
+    max-width: 33%;
+    text-align: center;
+    padding: 0 rem(20);
+    display: flex;
+    flex-direction: column;
+
+    &:global.lessThanThree {
+      max-width: none;
+    }
+
+    &:not(:last-child) {
+      border-bottom: none;
+    }
+
+    &:not(:last-child):not(:nth-child(3n)) {
+      border-bottom: none;
+      border-right: 2px solid $color-secondary-light;
+    }
+
+    &.accent {
+      &:not(:last-child) {
+        border-bottom: none;
+      }
+
+      &:not(:last-child):not(:nth-child(3n)) {
+        border-bottom: none;
+        border-right: 2px solid $color-primary;
+      }
+    }
+  }
+  .hasLongNumbers {
+    min-height: 95px;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .content {
+    font-size: rem(21);
+  }
+  .vertical {
+    .cardsWrap {
+      flex-direction: column;
+      align-content: center;
+      gap: rem(30);
+      padding: rem(70) rem(20);
+    }
+    .card {
+      flex: 1 0 auto;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      gap: rem(30);
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      &:not(:last-child) {
+        border-right: none;
+        border-bottom: 2px solid $color-secondary-light;
+        padding-bottom: rem(30);
+      }
+
+      &.accent {
+        &:not(:last-child) {
+          border-right: none;
+          border-bottom: 2px solid $color-primary;
+          padding-bottom: rem(30);
+        }
+      }
+    }
+    .numbers {
+      margin-bottom: 0;
+    }
+    .content {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: $bp) {
+  .numbers {
+    font-size: rem(120);
+  }
+  .content {
+    font-size: rem(24);
+  }
+  .vertical {
+    .content {
+      font-size: rem(36);
+      line-height: rem(42);
+      max-width: rem(660);
+    }
+  }
+  .hasLongNumbers {
+    min-height: 120px;
+    font-size: rem(60);
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .hasLongNumbers {
+    min-height: 100px;
+  }
+}
+
+@media (min-width: $bp-xxl) {
+  .hasLongNumbers {
+    font-size: rem(80);
+  }
+}

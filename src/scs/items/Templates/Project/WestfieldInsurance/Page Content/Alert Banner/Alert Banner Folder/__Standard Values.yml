@@ -1,0 +1,35 @@
+﻿---
+ID: "7f3281ce-bbdb-4842-8d6a-c641c84b3029"
+Parent: "ff25383c-7ad6-4b39-9002-dfbc1d4bcd36"
+Template: "ff25383c-7ad6-4b39-9002-dfbc1d4bcd36"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Alert Banner/Alert Banner Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{A20EECE9-2198-4617-93C0-BE6EC50A87A6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231031T164516Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a68f54a-89d3-41bb-974d-6ed3488602ba"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231031T164533Z

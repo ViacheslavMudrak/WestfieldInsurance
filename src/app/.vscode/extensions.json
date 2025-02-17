@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "GraphQL.vscode-graphql",
+        "clinyong.vscode-css-modules",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "mikestead.dotenv",
+        "redhat.vscode-yaml",
+        "mrmlnc.vscode-scss",
+        "divlo.vscode-styled-jsx-languageserver",
+        "divlo.vscode-styled-jsx-syntax"
+    ]
+}

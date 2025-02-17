@@ -1,0 +1,44 @@
+﻿---
+ID: "652d2762-ccd9-485f-9174-69fed30949b4"
+Parent: "5a5aedf3-37b8-4bf9-96a6-aafaa29f210f"
+Template: "577c3909-f573-4414-aa1b-0000f734f2c6"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Prerak Test/Single Component/Data/VideoTest
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+      Hint: Link
+      Value: |
+        <link text="Youtube Test Link" linktype="external" url="https://www.youtube.com/watch?v=--Z1XvxtL4U" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T145103Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: VideoTestTitle
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c016ff32-9a38-4d61-a547-8aa847b02141"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T163340Z
+    - ID: "ea562e4c-1907-48a3-86d9-4337e7b0825e"
+      Hint: RichTextCopy
+      Value: <p><strong>Test Transcript headingss</strong></p><p><strong>&nbsp;</strong></p><p>Test transcript body</p>

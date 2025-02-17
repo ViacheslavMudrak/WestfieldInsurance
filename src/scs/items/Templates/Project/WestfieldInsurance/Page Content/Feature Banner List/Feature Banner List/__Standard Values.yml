@@ -1,0 +1,27 @@
+﻿---
+ID: "0fb0395a-1b30-4fee-a981-a847e2871a5e"
+Parent: "3e533387-107a-4b63-8d06-6afacb3acb7a"
+Template: "3e533387-107a-4b63-8d06-6afacb3acb7a"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Feature Banner List/Feature Banner List/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{C318AD7E-E0C5-43BE-9453-63980805E32C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T185150Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "381eef12-2bcf-4eef-9dba-1174ff51bf41"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240116T144432Z

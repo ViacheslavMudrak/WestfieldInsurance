@@ -1,0 +1,114 @@
+@use 'src/sass/abstracts' as *;
+
+.header {
+  position: relative;
+  z-index: 2000;
+}
+
+.top {
+  height: 64px;
+  background: $color-secondary;
+  display: none;
+
+  @media (min-width: $bp-md) {
+    display: block;
+  }
+}
+
+.topLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  > a {
+    padding: 24px 24px 24px 0;
+    color: $white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+
+    @media (min-width: $bp-lg) {
+      padding: 24px 30px 24px 0;
+    }
+  }
+
+  button {
+    height: 40px;
+
+    svg {
+      margin-left: 4px;
+    }
+  }
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  background: $white;
+  border-bottom: 2px solid $bg-gray;
+
+  @media (min-width: $bp) {
+    position: relative;
+    border: none;
+  }
+}
+
+.fullHeightElement {
+  @media (min-width: $bp-md) {
+    height: 100%;
+  }
+}
+
+.fullTabletWidthElement {
+  @media (min-width: $bp-md) and (max-width: $bp-lg) {
+    max-width: 100%;
+  }
+}
+
+.bottomLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 rem(20);
+
+  @media (min-width: $bp-md) {
+    justify-content: flex-end;
+  }
+
+  @media (min-width: $bp-xl) {
+    position: relative;
+  }
+}
+
+.mobileLoginBtn {
+  @media (max-width: $bp-md-max) {
+    height: 40px;
+    margin: 0 rem(20);
+  }
+
+  @media (min-width: $bp-md) {
+    display: none;
+  }
+}
+
+.darkLogo {
+  display: flex;
+  width: 210px;
+  align-items: center;
+  justify-content: flex-start;
+
+  @media (min-width: $bp) {
+    width: 288px;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,23 @@
+﻿---
+ID: "a895523c-d588-4aa6-aaee-51d6b8355720"
+Parent: "37534e75-84eb-4f35-b365-70925ae84504"
+Template: "ef9b9ef2-97a3-4361-bc91-10c8917c6e8e"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Find An Agent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231206T184801Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b58e2f97-167c-49d9-a7fe-1e48eee74be1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231206T184801Z

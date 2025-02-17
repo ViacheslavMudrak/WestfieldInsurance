@@ -1,0 +1,14 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Powershell",
+    "items": {
+        "includes": [
+            {
+                "name": "Vercel",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/SPE/Vercel",
+                "scope": "itemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

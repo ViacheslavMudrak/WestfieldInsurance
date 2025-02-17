@@ -1,0 +1,68 @@
+﻿---
+ID: "cb3f0ff5-247d-45ff-85c4-d9b0538a94fd"
+Parent: "ac541bdb-9270-49b0-997c-525c3209018c"
+Template: "87f7e155-87f0-4ff1-a78a-1dea93bada86"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Leadership Team/Frank Carrino Leader
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{34D91B5D-B5C8-4156-A1FC-26A56C57DAA3}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1db9908b-4509-4846-8461-e155ef730fc2"
+      Hint: Title
+      Value: Frank Carrino
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231120T193547Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5c6acac4-a40e-4786-8a36-31d4cc2fca63"
+      Hint: Label
+      Value: President, CEO and Board Chair
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8a3e6082-7126-4f92-9051-a0480ddd9076"
+      Hint: BreadcrumbTitle
+      Value: Ed Largent
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49bec487-2a9b-440d-a375-69dc1ba760ed"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d3ac447a-e04d-4463-a300-fb01ca8334db"
+      Hint: ShortBioCopy
+      Value: <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231214T215151Z
+    - ID: "ea562e4c-1907-48a3-86d9-4337e7b0825e"
+      Hint: RichTextCopy
+      Value: |
+        Largent joined Westfield in 1986 and has served as President since 2011. He was appointed CEO and President of Westfield Group in July of 2015. He leads Westfield&rsquo;s multi-line, regional property and casualty insurance and surety operation with $2 billion in revenue and more than $6.5 billion in total assets. In 2016, he was named Chairman of Ohio Farmers Insurance Company (parent company of Westfield Insurance and Westfield Bank, FSB). Largent&rsquo;s previous leadership roles at the company include Group Administration Leader and Chief Technology Officer.<br />
+        &nbsp;<br />
+        During his career, Largent has enjoyed success building and leading teams focused on operational performance improvements, cultivating strong distribution relationships, investing in critical capabilities and enhancing the quality of data and analytics to improve business performance.<br />
+        &nbsp;<br />
+        Largent&rsquo;s diverse background is also apparent in his volunteer activities. He serves on the boards of a variety of trade associations and non-profit groups including the Insurance Information Institute, the Playhouse Square Foundation, American Property Casualty Insurance Association, The Institutes, and The Greater Cleveland Partnership.<br />
+        &nbsp;<br />
+        Largent received a Bachelor of Science in Computer Science from Bowling Green State University and is a 2008 graduate of the Executive Institute at the University of Chicago Booth School of Business.
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: |
+        <image mediaid="{8B555260-4F41-46C3-97B6-00652FB3FE6A}" />

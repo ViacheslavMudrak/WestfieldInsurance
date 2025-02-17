@@ -1,0 +1,198 @@
+@use 'src/sass/abstracts' as *;
+
+.hasCarousel {
+  .carouselItem {
+    margin-top: rem(40);
+    margin-bottom: rem(40);
+    transition: $transition;
+
+    &:focus,
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+  &.noFullCardLinks {
+    .carouselItem {
+      &:focus,
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+
+  :global {
+    .splide__slide {
+      opacity: 0.5;
+
+      &.is-visible {
+        opacity: 1;
+      }
+
+      :global .cardItemLink {
+        height: 100%;
+      }
+    }
+    .splide__pagination {
+      @include resetList;
+      display: flex;
+      justify-content: center;
+      gap: rem(10);
+      margin-bottom: rem(36);
+      margin-top: rem(-10);
+      button {
+        @include resetBtn;
+        font-size: 0;
+        inline-size: rem(12);
+        block-size: rem(12);
+        border-radius: 100%;
+        border: 2px solid $color-primary;
+
+        &.active,
+        &.is-active {
+          background: $color-primary;
+        }
+
+        &:hover,
+        &:focus {
+          background: $color-primary;
+        }
+      }
+    }
+    .splide__arrows {
+      display: flex;
+      gap: rem(15);
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 rem(20);
+    }
+    .splide__arrow {
+      @include resetBtn;
+      width: rem(44);
+      height: rem(44);
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      svg {
+        display: none;
+      }
+      &[disabled] {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+      &:hover {
+        background: $red-dark;
+        &.splide__arrow--prev {
+          background-image: url("data:image/svg+xml,%3Csvg width='44' height='44' viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='22' cy='22' r='21' transform='rotate(-180 22 22)' stroke='%23E03100' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_2301_7201)'%3E%3Cpath d='M22 30L23.41 28.59L17.83 23L30 23L30 21L17.83 21L23.41 15.41L22 14L14 22L22 30Z' fill='%23ffffff'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2301_7201'%3E%3Crect width='24' height='24' fill='white' transform='translate(34 34) rotate(-180)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+        }
+        &.splide__arrow--next {
+          background-image: url("data:image/svg+xml,%3Csvg width='44' height='44' viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='22' cy='22' r='21' stroke='%23E03100' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_2301_7200)'%3E%3Cpath d='M22 14L20.59 15.41L26.17 21H14V23H26.17L20.59 28.59L22 30L30 22L22 14Z' fill='%23ffffff'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2301_7200'%3E%3Crect width='24' height='24' fill='white' transform='translate(10 10)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E ");
+        }
+      }
+    }
+    .splide__arrow--prev {
+      background-image: url("data:image/svg+xml,%3Csvg width='44' height='44' viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='22' cy='22' r='21' transform='rotate(-180 22 22)' stroke='%23E03100' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_2301_7201)'%3E%3Cpath d='M22 30L23.41 28.59L17.83 23L30 23L30 21L17.83 21L23.41 15.41L22 14L14 22L22 30Z' fill='%23E03100'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2301_7201'%3E%3Crect width='24' height='24' fill='white' transform='translate(34 34) rotate(-180)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    }
+    .splide__arrow--next {
+      background-image: url("data:image/svg+xml,%3Csvg width='44' height='44' viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='22' cy='22' r='21' stroke='%23E03100' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_2301_7200)'%3E%3Cpath d='M22 14L20.59 15.41L26.17 21H14V23H26.17L20.59 28.59L22 30L30 22L22 14Z' fill='%23E03100'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2301_7200'%3E%3Crect width='24' height='24' fill='white' transform='translate(10 10)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E ");
+    }
+  }
+}
+
+@media (min-width: $bp-md) {
+  .hasCarousel {
+    --vw-gap: calc((100vw - 48rem + 60px) / 2);
+    --ss-gap: calc(max(2.5rem, var(--vw-gap)));
+
+    :global {
+      .splide__track {
+        padding-left: var(--vw-gap) !important;
+        padding-right: var(--vw-gap) !important;
+        padding-bottom: rem(40);
+      }
+      .splide__arrows {
+        &::before {
+          content: '';
+          height: 2px;
+          background-color: $color-secondary-lightest;
+          flex: 1 1 auto;
+        }
+      }
+    }
+  }
+  .noCarouselTabletDesktop {
+    .carouselItem {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    :global {
+      .splide.is-initialized:not(.is-active) {
+        .splide__list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: rem(20);
+          justify-content: center;
+          padding-top: rem(20) !important;
+          padding-bottom: rem(20) !important;
+        }
+        .splide__slide {
+          flex: 0 1;
+          flex-basis: calc((100% - 40px) / 3);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $bp) {
+  .hasCarousel {
+    --vw-gap: calc((100vw - 60rem + 60px) / 2);
+    --ss-gap: calc(max(2.5rem, var(--vw-gap)));
+
+    :global {
+      .splide__track {
+        padding-left: var(--vw-gap) !important;
+        padding-right: var(--vw-gap) !important;
+        padding-bottom: rem(50);
+      }
+      .splide__arrows {
+        gap: rem(20);
+        padding: 0 rem(20);
+      }
+      .splide.is-initialized:not(.is-active) {
+        .splide__list {
+          gap: rem(30);
+        }
+        .splide__slide {
+          flex-basis: calc((100% - 60px) / 3);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .hasCarousel {
+    --vw-gap: calc((100vw - 75rem + 60px) / 2);
+    --ss-gap: calc(max(2.5rem, var(--vw-gap)));
+    :global {
+      .splide__track {
+        padding-left: var(--vw-gap) !important;
+        padding-right: var(--vw-gap) !important;
+      }
+    }
+  }
+}
+
+@media (min-width: $bp-xxl) {
+  .hasCarousel {
+    --vw-gap: calc((100vw - 90rem + 60px) / 2);
+    --ss-gap: calc(max(2.5rem, var(--vw-gap)));
+    :global {
+      .splide__track {
+        padding-left: var(--vw-gap) !important;
+        padding-right: var(--vw-gap) !important;
+      }
+    }
+  }
+}

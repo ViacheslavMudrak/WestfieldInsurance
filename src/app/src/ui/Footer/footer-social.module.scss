@@ -1,0 +1,22 @@
+@use 'src/sass/abstracts' as *;
+
+.list {
+  @include resetList;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+}
+
+.item {
+  a {
+    color: $white;
+    inline-size: rem(30);
+    block-size: rem(30);
+
+    svg {
+      inline-size: 100%;
+      block-size: 100%;
+    }
+  }
+}

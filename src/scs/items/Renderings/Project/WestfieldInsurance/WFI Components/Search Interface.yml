@@ -1,0 +1,107 @@
+﻿---
+ID: "5d4cd986-a758-4feb-ad9b-a332c9bab561"
+Parent: "bf92de4d-ae38-4bfa-8ec0-be188590c7f7"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/WestfieldInsurance/WFI Components/Search Interface
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: SearchInterface
+- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
+  Hint: Placeholders
+  Value: 
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/scroll_view.png
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: |
+    query GetSearchInterfaceData(
+      $datasource: String!  
+      $language: String!) {
+      item(path: $datasource, language: $language) {
+    ... on SearchInterface {
+      	title {
+          value
+        }
+        searchEngine {
+    			targetItem {
+            ... on SearchEngine
+            {
+              accessToken
+              {
+                value
+              }
+              organizationId { 
+                value 
+              }
+            }
+          }
+        }
+        includeDateRangeFacet {
+          boolValue
+        }
+        includeAlphaSortFacet {
+          boolValue
+        }
+          facets {
+            targetItems {
+              id
+              name
+              displayName
+            }
+          }
+      	tags {
+          targetItems {
+            name
+            tagFolder:parent {
+              id
+              name
+              displayName
+            }
+          }
+        }
+        }
+      }
+    }
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/WestfieldInsurance/Page Content/Search/Search Interface
+- ID: "592a1ce7-abe0-4986-9783-0a34f3961dc0"
+  Hint: Placeholder
+  Value: 
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{3F594364-7F0B-4240-B88C-88AC705D194E}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: 
+- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
+  Hint: OtherProperties
+  Value: IsAutoDatasourceRendering=true
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T145738Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6053e883-e08b-4b2a-8fc0-42cd13528db9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shannonbrink@westfieldgrp.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241112T212037Z

@@ -1,0 +1,35 @@
+﻿---
+ID: "4b3426e0-75de-4375-b4c9-6815f6f2f912"
+Parent: "5f1795be-0ddb-43ea-bb43-5a632f4e801e"
+Template: "5f1795be-0ddb-43ea-bb43-5a632f4e801e"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Interior Hero Banner/Interior Hero Banner Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{37975C04-337D-484B-9DB6-EEE6B9091F08}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230928T214447Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b129170d-9321-4951-8f1a-bbdce179f30e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231101T154037Z

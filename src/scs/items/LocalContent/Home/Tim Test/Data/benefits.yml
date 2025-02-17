@@ -1,0 +1,35 @@
+﻿---
+ID: "abb51a8b-02fb-46f0-975a-8a90358bcb45"
+Parent: "5adbe864-5685-4947-8095-dc2cf18ea1f9"
+Template: "23eb5485-337e-4760-8ec7-269a423a97cd"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Data/benefits
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231204T220851Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: benefits
+    - ID: "5c6acac4-a40e-4786-8a36-31d4cc2fca63"
+      Hint: Label
+      Value: benefits
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f084edb-4cb5-45e9-80dd-0de48cfdee1f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240228T113829Z
+    - ID: "ea562e4c-1907-48a3-86d9-4337e7b0825e"
+      Hint: RichTextCopy
+      Value: <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

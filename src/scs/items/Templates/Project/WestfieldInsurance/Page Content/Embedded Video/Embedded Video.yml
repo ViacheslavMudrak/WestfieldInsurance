@@ -1,0 +1,47 @@
+﻿---
+ID: "577c3909-f573-4414-aa1b-0000f734f2c6"
+Parent: "81459934-a307-478b-9761-ef5c9a7b7bb5"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Embedded Video/Embedded Video
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/film.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {CB63F335-6F58-44C7-B3D8-400B06AE74D4}
+    {735E3ABF-6FA2-4D57-AE31-F348AC875973}
+    {B5FB2E13-61C8-4F02-85BF-2060893F4C26}
+    {F39A594A-7BC9-4DB0-BAA1-88543409C1F9}
+    {C4E9C48C-FD17-4ABF-ACA2-E34BE73852D4}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{66338485-C0B4-4AB6-BEF3-E6A09743BA4D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T173518Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e29f1d34-2056-4379-b8c4-2f76b212d906"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jason.dilday@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240226T195045Z

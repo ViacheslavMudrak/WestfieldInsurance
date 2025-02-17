@@ -1,0 +1,34 @@
+﻿---
+ID: "b5edbb50-b905-4ead-8774-6cd765e2dfc5"
+Parent: "da9d9f3a-1abf-4b91-8344-0e768c0531d7"
+Template: "da9d9f3a-1abf-4b91-8344-0e768c0531d7"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Find Agent/Insurance Type/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231207T090631Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "773ee3d1-ca51-4ab0-a11c-d38a7adac1b9"
+      Hint: InsuranceType
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ccbd5ac-acaf-4615-9a94-44d923758e03"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231207T090635Z

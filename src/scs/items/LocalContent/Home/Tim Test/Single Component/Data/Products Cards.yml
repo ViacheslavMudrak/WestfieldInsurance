@@ -1,0 +1,32 @@
+﻿---
+ID: "8db0d2b8-e297-4d90-8ccb-0be2eb8af45d"
+Parent: "55759745-b91e-4c8e-b80b-a2bc34607a0b"
+Template: "0db034da-34f9-44d5-a71c-7c1ca6a27119"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Data/Products Cards
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231103T180311Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Home & Vehicle Products
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b2ec404-ccd9-4e83-8598-fcb16d754aba"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d924090c-af67-4b25-8c11-55f80c1c66e1"
+      Hint: Label
+      Value: Personal insurance
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231103T180410Z

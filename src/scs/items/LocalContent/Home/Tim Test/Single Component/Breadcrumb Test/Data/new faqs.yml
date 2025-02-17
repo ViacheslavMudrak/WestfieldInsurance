@@ -1,0 +1,36 @@
+﻿---
+ID: "b669b159-2b30-4523-a5b2-1ce572ac18cf"
+Parent: "11b4e7bb-e9e8-40c8-a1c9-6c8c02f84bf6"
+Template: "ec96bf56-480e-4526-8da0-dd7dd5365ec3"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Breadcrumb Test/Data/new faqs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240119T222648Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: new faqs
+    - ID: "5c6acac4-a40e-4786-8a36-31d4cc2fca63"
+      Hint: Label
+      Value: "[No text fdsafin field]"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a216cc83-fc90-40e5-8c0c-d1b27e436508"
+    - ID: "a642e4df-20a3-43c5-804d-d929a797eb9e"
+      Hint: CtaLink
+      Value: |
+        <link linktype="external" url="test.com" target="" text="test" title="" class=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240119T222958Z

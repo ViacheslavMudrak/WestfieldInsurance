@@ -1,0 +1,154 @@
+@use 'src/sass/abstracts' as *;
+
+.agentSearch {
+  text-align: left;
+
+  .input {
+    height: 50px;
+    border-radius: 4px;
+    padding: 0 8px;
+    border-style: none;
+    width: 100%;
+
+    &:focus-visible {
+      outline-color: $color-secondary;
+    }
+  }
+
+  .insuranceTypeSelect {
+    height: 50px;
+    border-radius: 4px;
+    padding: 13px 8px 13px 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: $white;
+    color: $color-secondary-dark;
+    width: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10L12 15L17 10H7Z' fill='black'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: right 8px top 50%;
+    border: 1px solid $color-secondary-lighter;
+
+    &:focus-visible {
+      outline-color: $color-secondary;
+    }
+  }
+
+  .title {
+    color: $white;
+  }
+
+  .tip {
+    font-size: rem(14);
+    line-height: 1;
+    font-weight: 400;
+    display: block;
+  }
+
+  .label {
+    font-size: rem(14);
+    margin-bottom: 4px;
+    color: $white;
+  }
+
+  label {
+    position: relative;
+  }
+
+  .error {
+    color: $error;
+    font-size: rem(14);
+    font-weight: 700;
+    top: 100%;
+    left: 0;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    padding: 4px 4px 4px 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    letter-spacing: 0.4px;
+
+    svg {
+      margin-right: 2px;
+      min-width: 18px;
+    }
+  }
+
+  .fieldError {
+    input,
+    input:focus,
+    input:focus-within {
+      border: 2px solid $error !important;
+      outline: none;
+    }
+  }
+
+  &.dark {
+    .error {
+      color: $white;
+      border: 2px solid $error-light;
+      background-color: $error;
+      font-weight: 500;
+    }
+  }
+
+  &.light {
+    .title,
+    .label {
+      color: $color-secondary;
+    }
+
+    .input {
+      border: 1px solid $color-secondary-lighter;
+    }
+
+    .error {
+      color: $red;
+    }
+  }
+}
+
+.title {
+  font-size: rem(24);
+  line-height: 28px;
+  font-weight: 500;
+  color: $white;
+
+  @media (min-width: $bp-md) {
+    margin: 0;
+    font-size: rem(28);
+    line-height: 32px;
+  }
+
+  @media (min-width: $bp) {
+    font-size: rem(32);
+    line-height: 38px;
+  }
+}
+
+.error {
+  font-size: rem(14);
+  font-weight: 700;
+  top: 100%;
+  left: 0;
+  margin-top: 4px;
+  @media (min-width: $bp) {
+    position: absolute;
+  }
+}
+
+.fieldError {
+  input,
+  input:focus,
+  input:focus-within {
+    outline-color: $red !important;
+  }
+}

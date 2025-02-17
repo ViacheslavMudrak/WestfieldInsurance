@@ -1,0 +1,57 @@
+# Westfield Build Pipeline
+
+trigger:
+- develop
+
+pool:
+  name: Sitecore
+
+steps:
+
+- task: DeleteFiles@1
+  displayName: 'Delete Cuts Before Build'
+  inputs:
+    SourceFolder: 
+    Contents: 'src/app/src/pages/cuts/*'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: build/xmcloud'
+  inputs:
+    Contents: |
+     **
+     !.git/**
+    TargetFolder: build/xmcloud
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: XM_Cloud'
+  inputs:
+    PathtoPublish: build/xmcloud
+    ArtifactName: XMCloud
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: Vercel'
+  inputs:
+    PathtoPublish: src/app
+    ArtifactName: Vercel
+
+- task: NodeTool@0
+  displayName: 'Use Node 18.17.1'
+  inputs:
+    versionSpec: 18.17.1
+
+- powershell: |
+   npm install
+   npm run lint
+
+
+  workingDirectory: src/app
+  displayName: Lint
+
+- task: HCLAppScanOnCloud@2
+  inputs:
+    AppSecTestService: 'ASoC'
+    applications: 'afc8f92b-e965-424f-999c-a4a109f364e7'
+    scanname: 'WestfieldInsurance-website'
+    scantype: 'static'
+    scanMethod: 'IRX'
+    ScanSpeedOptions: 'thorough'

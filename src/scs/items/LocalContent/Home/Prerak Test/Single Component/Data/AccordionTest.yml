@@ -1,0 +1,34 @@
+﻿---
+ID: "9efe1bf1-1237-4eec-a23f-b2aed254ecfe"
+Parent: "5a5aedf3-37b8-4bf9-96a6-aafaa29f210f"
+Template: "fa05a870-0169-4696-95b9-d7a14d908b3b"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Prerak Test/Single Component/Data/AccordionTest
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231107T214931Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: AccordionTest
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "245e3a15-91f2-4ed3-b629-a58d6156d573"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231107T214931Z

@@ -1,0 +1,56 @@
+@use 'src/sass/abstracts' as *;
+
+.featureBannerList {
+  padding: rem(40) 0;
+  background: $bg-gray;
+
+  .title {
+    font-size: rem(30);
+    margin-top: 0;
+    margin-bottom: rem(20);
+    font-weight: 300;
+    color: $color-secondary;
+  }
+
+  .subtitle {
+    font-size: rem(16);
+    margin-bottom: rem(20);
+    color: $color-secondary;
+    a {
+      color: inherit;
+      &:focus,
+      &:hover {
+        text-shadow: 0.5px 0 0 currentColor;
+        color: inherit;
+      }
+    }
+  }
+
+  &:global.light {
+    background: $white;
+  }
+
+  .heading {
+    margin-bottom: rem(20);
+  }
+
+  @media (min-width: $bp-md) {
+    .title {
+      font-size: rem(36);
+    }
+  }
+
+  @media (min-width: $bp-lg) {
+    .title {
+      font-size: rem(48);
+    }
+
+    .subtitle {
+      font-size: rem(18);
+    }
+
+    .heading {
+      margin-bottom: rem(40);
+    }
+  }
+}

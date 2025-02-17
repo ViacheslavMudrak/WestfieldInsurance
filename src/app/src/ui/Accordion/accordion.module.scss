@@ -1,0 +1,91 @@
+@use 'src/sass/abstracts' as *;
+
+.accordion {
+  overflow: hidden;
+  padding: rem(40) 0;
+  &.greyBg {
+    background-color: $bg-gray;
+  }
+}
+
+.title {
+  font-weight: 500;
+  font-size: rem(24);
+  margin-bottom: rem(15);
+  color: $color-secondary;
+}
+
+.accordionItem {
+  border-top: 2px solid $color-secondary-lightest;
+  &:last-child {
+    border-bottom: 2px solid $color-secondary-lightest;
+  }
+}
+
+.toggle {
+  @include resetBtn;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  inline-size: 100%;
+  padding: rem(20) 0;
+  color: $color-secondary;
+  transition: opacity, transform $transition-duration $transition-ease;
+
+  &.active {
+    padding-bottom: 0;
+  }
+}
+
+.buttonText {
+  font-weight: 700;
+  text-align: left;
+  padding-right: rem(30);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.arrow {
+  min-width: rem(20);
+  inline-size: rem(20);
+  block-size: rem(20);
+  fill: $color-primary;
+  &.active {
+    transform: rotate(180deg);
+  }
+}
+
+.content {
+  font-size: rem(16);
+  padding-top: rem(5);
+  padding-bottom: rem(20);
+  color: $color-secondary;
+
+  a {
+    color: inherit;
+    &:focus,
+    &:hover {
+      text-shadow: 0.5px 0 0 currentColor;
+      color: inherit;
+    }
+  }
+}
+
+@media (min-width: $bp-md) {
+  .title {
+    font-size: rem(28);
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .accordion {
+    padding: rem(90) 0 rem(80);
+  }
+  .title {
+    font-size: rem(32);
+    margin-bottom: rem(30);
+  }
+  .buttonText {
+    font-size: rem(18);
+  }
+}

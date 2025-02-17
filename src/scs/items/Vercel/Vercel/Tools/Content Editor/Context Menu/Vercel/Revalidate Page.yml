@@ -1,0 +1,121 @@
+﻿---
+ID: "d89ea1ef-4399-47c8-af24-3bcf58350aea"
+Parent: "1cf222b3-48c8-49e8-9b8d-fafd1dd72c00"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: /sitecore/system/Modules/PowerShell/Script Library/SPE/Vercel/Tools/Content Editor/Context Menu/Vercel/Revalidate Page
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/graph_from.png
+- ID: "1c76313e-3c8c-4807-a826-135d10c39299"
+  Hint: ShowRule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{90A802AB-4A22-48DE-A14D-EF878CF90806}">
+        <conditions>
+          <condition
+            id="{A45DBBAE-F74F-4EFE-BBD5-24395E0AF945}"
+            uid="309FC865252E4EAE94B40E07C8E35471" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    function RevalidateISRForItem{
+    Param ([Sitecore.Data.Items.Item]$item)
+    	#loop through item languages
+    	foreach($lang in $item.Languages)
+    	{
+    		$languageItem = Get-Item -Path "master:" -ID $item.ID -Language $lang
+    		if($languageItem.Versions.Count -ne 0)
+    		{
+    			#Check if the item has a layout
+    			if ($languageItem.Visualization.Layout -ne $null) {
+    				# Get the target hostname and scheme for the site of the item and construct the Base Url
+    				$siteInfo =   [Sitecore.Links.LinkManager]::ResolveTargetSite($languageItem) 
+    				
+                                    $scheme = $siteInfo.Scheme
+                                    if($scheme -eq $null -Or $scheme -eq "")
+                                    {
+                                         $scheme = "https"
+                                     }
+    				$siteBaseUrl = $scheme + "://" + $siteInfo.TargetHostName
+    				
+    				# Get the relative URL of the item
+    				$options = [Sitecore.Links.UrlOptions]::DefaultOptions
+    				$options.AlwaysIncludeServerUrl = $false
+    				$options.Language = $lang
+    				$itemRelativeUrl = [Sitecore.Links.LinkManager]::GetItemUrl($languageItem, $options)
+    				$uri = New-Object System.Uri($itemRelativeUrl)
+                                    $relativeUrl = $uri.PathAndQuery
+    			 
+    				# Prepare the POST request parameters
+    				$body = @{
+    					url = $relativeUrl
+    					secret = "5ZUXuJxG5Brh8GWbGcg7Zn"
+    				} | ConvertTo-Json
+    				
+    				# Construct the POST request URL
+    				$revalidatePostUrl = "${siteBaseUrl}/api/admin/revalidate"
+    				Write-Host "Revalidating Vercel ISR for -> ${siteBaseUrl}$ {$relativeUrl} "
+    				# Execute the POST request
+    				$response = Invoke-RestMethod -Uri $revalidatePostUrl -Method Post -Body $body -ContentType "application/json"
+    				
+    				# Print the response
+    				Write-Host "Response: $response"
+    			}
+    		}
+    	}
+    }
+    # Get the item from the Sitecore content tree
+    $item = Get-Item -Path .
+    RevalidateISRForItem -item  $item
+    
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f62c67b4-28b6-4a6f-91cb-db78cf054f4e"
+  Hint: EnableRule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{F5029796-532A-44B9-93E3-64631A6C62E1}">
+        <conditions>
+          <condition
+            id="{A45DBBAE-F74F-4EFE-BBD5-24395E0AF945}"
+            uid="7AFF6AD24E8941899F4C648911020C78" />
+        </conditions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Request on Demand Vercel ISR for current Page
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240314T184228Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ahmed.okour@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ahmed.okour@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb6bf1da-74ad-45f5-8180-9a17029d03cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jason.dilday@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240923T213607Z

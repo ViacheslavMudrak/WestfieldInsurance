@@ -1,0 +1,5 @@
+@use 'src/sass/abstracts' as *;
+
+.content {
+  font-size: #{fluid(16px, 18px)};
+}

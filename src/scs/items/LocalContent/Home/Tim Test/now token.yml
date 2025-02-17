@@ -1,0 +1,40 @@
+﻿---
+ID: "ad512cb1-797e-4ec6-8ce7-00933f9f8a3f"
+Parent: "dd3b7313-9d96-42a4-a77a-d722a5cbb0ee"
+Template: "867610ea-18ef-4564-8cf8-37fe4a186a50"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/now token
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E72A4CB0-1B78-42C7-BB58-74E32551BE97}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f58dfb0-f8c7-4b8a-8c9d-90c6fb5d2d17"
+      Hint: PublishedDate
+      Value: 20240209T213712Z
+    - ID: "1db9908b-4509-4846-8461-e155ef730fc2"
+      Hint: Title
+      Value: now token
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240209T213712Z
+    - ID: "8a3e6082-7126-4f92-9051-a0480ddd9076"
+      Hint: BreadcrumbTitle
+      Value: now token
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f798cc24-92c4-4dfa-aa73-94d2b55eff9d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d006159c-8f70-4a33-b3fd-0ecb98e9c301"
+      Hint: PageTitle
+      Value: now token
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240209T213712Z

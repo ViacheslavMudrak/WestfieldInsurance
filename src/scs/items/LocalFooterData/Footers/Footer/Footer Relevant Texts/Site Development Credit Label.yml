@@ -1,0 +1,34 @@
+﻿---
+ID: "097063be-d2fd-46c4-8c65-98f21f7c90d6"
+Parent: "fc0d65ad-11aa-491d-b790-6ac70868c425"
+Template: "01ec4d48-f723-4284-a1ff-3d2b1e590846"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Footers/Footer/Footer Relevant Texts/Site Development Credit Label
+Languages:
+  - Language: en
+    Versions:
+      - Version: 1
+        Fields:
+          - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+            Hint: __Created
+            Value: 20231016T161421Z
+          - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+            Hint: Title
+            Value: Website design & development by Americaneagle.com
+          - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+            Hint: __Owner
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+            Hint: __Created by
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+            Hint: __Revision
+            Value: "934010f7-a26f-44e4-b151-1fbc0f3b5cdb"
+          - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+            Hint: __Updated by
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+            Hint: __Updated
+            Value: 20231016T161433Z

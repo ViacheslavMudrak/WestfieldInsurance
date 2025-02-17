@@ -1,0 +1,109 @@
+﻿---
+ID: "ec7d7bc4-9ed8-4e36-b79b-49489c91781b"
+Parent: "dd3b7313-9d96-42a4-a77a-d722a5cbb0ee"
+Template: "867610ea-18ef-4564-8cf8-37fe4a186a50"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Resource Detail Page
+SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: "{4D581622-42B9-4664-9C2C-F949BAF680A2}|{A0948EA3-962A-4F03-892B-28B1AECC19A0}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C84E2F2D-558D-45ED-AC49-E2AED4BB9F0A}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{FEF0444D-548E-4812-8DFC-4F319F5C3A1F}"
+              p:before="*"
+              s:ds="local:/Data/Full Width Widget"
+              s:id="{8F14CDE3-5936-4CB9-B534-404C75BCEF7E}"
+              s:par="RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main-bottom" />
+            <r
+              uid="{DA885E08-D6D4-4A20-B3DC-2D374300A4FD}"
+              p:after="r[@uid='{FEF0444D-548E-4812-8DFC-4F319F5C3A1F}']"
+              s:ds="local:/Data/Text 2"
+              s:id="{1ADA836C-D970-4B70-9C6C-059DD5FD660E}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B2D5E5E8A-5374-446B-AECE-DD3D7FF6A5E7%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="resource-details-main" />
+            <r
+              uid="{D025DA57-0364-41EB-83B8-25E28CAC2050}"
+              p:after="r[@uid='{DA885E08-D6D4-4A20-B3DC-2D374300A4FD}']"
+              s:ds="local:/Data/Text 3"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BAFA72043-E0F3-4FF7-AA44-E509D769BE74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="resource-details-main" />
+            <r
+              uid="{CEE61E3E-C1C4-4E7E-BC95-8EECE57411E9}"
+              p:after="r[@uid='{D025DA57-0364-41EB-83B8-25E28CAC2050}']"
+              s:ds="local:/Data/Text 4"
+              s:id="{1ADA836C-D970-4B70-9C6C-059DD5FD660E}"
+              s:par="RenderingIdentifier&amp;DynamicPlaceholderId=5"
+              s:ph="resource-details-main" />
+            <r
+              uid="{EDC78B89-3B03-49C8-87B5-8C2A84E5F015}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Video"
+              s:id="{74301F3B-458E-4DAF-9A47-853B57048080}"
+              s:par="RenderingIdentifier&amp;DynamicPlaceholderId=6"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "0f58dfb0-f8c7-4b8a-8c9d-90c6fb5d2d17"
+      Hint: PublishedDate
+      Value: 20231114T060000Z
+    - ID: "1db9908b-4509-4846-8461-e155ef730fc2"
+      Hint: Title
+      Value: Resource Detail Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T174928Z
+    - ID: "46392a28-4cb4-4713-b135-55dfcbb85269"
+      Hint: Authors
+      Value: |
+        {CB3F0FF5-247D-45FF-85C4-D9B0538A94FD}
+        {5853E029-66AF-4A3E-A28E-37D7FA2A6055}
+    - ID: "8a3e6082-7126-4f92-9051-a0480ddd9076"
+      Hint: BreadcrumbTitle
+      Value: Resource Detail Page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2d9948e-b164-46fa-a738-92a69cebb87c"
+    - ID: "9b8bccd0-7966-424f-a24b-81ab21bfd588"
+      Hint: Content
+      Value: |
+        <p class="rte-align-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim carborundum e&nbsp;</p><p class="rte-align-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim carborundum e pluribus unum. Defacto lingo est igpay atinlay.</p>
+    - ID: "b31128ef-52f8-4968-bb07-eb4589f8fb90"
+      Hint: ImageCaption
+      Value: Caption for image
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d006159c-8f70-4a33-b3fd-0ecb98e9c301"
+      Hint: PageTitle
+      Value: Resource Detail page title
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240312T204030Z
+    - ID: "f62c9f3e-b981-4c24-9791-12c5bc721dd1"
+      Hint: LeadInContent
+      Value: testIt has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: |
+        <image mediaid="{A46600A4-72C4-4A5D-8345-C1457516783A}" />

@@ -1,0 +1,37 @@
+﻿---
+ID: "c502ff18-496c-4e62-8537-843d6e681b0d"
+Parent: "798ce531-6243-4b96-bf4b-ac0d3d40d705"
+Template: "798ce531-6243-4b96-bf4b-ac0d3d40d705"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Hubspot Form/Hubspot Forms Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {798CE531-6243-4B96-BF4B-AC0D3D40D705}
+    {5A331A3B-3B29-446B-923A-F079153E1ABE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241031T201423Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jasondilday@westfieldgrp.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jasondilday@westfieldgrp.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f2d9c37-d34d-4c15-837c-391ef0648448"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jasondilday@westfieldgrp.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241031T201446Z

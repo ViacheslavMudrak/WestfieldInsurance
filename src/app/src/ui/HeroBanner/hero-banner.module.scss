@@ -1,0 +1,418 @@
+@use 'src/sass/abstracts' as *;
+
+.heroBanner {
+  background: $bg-gray;
+  color: $color-secondary;
+  position: relative;
+
+  .sunWrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+
+    svg {
+      display: none;
+    }
+  }
+
+  :global .container {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  &.themeOverlay {
+    @media (min-width: $bp-md) {
+      .sunWrapper svg {
+        display: none;
+      }
+
+      :global .container {
+        position: static;
+      }
+
+      &::after {
+        content: '';
+        background: $bg-gray;
+        background: linear-gradient(
+          90deg,
+          $bg-gray 55%,
+          rgba(0, 0, 0, 0) 80%,
+          rgba(0, 0, 0, 0) 100%
+        );
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      .imageWrapper {
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      &.dark {
+        &::after {
+          content: '';
+          background: $color-secondary;
+          background: linear-gradient(
+            90deg,
+            $color-secondary 55%,
+            rgba(0, 0, 0, 0) 80%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+      }
+    }
+  }
+
+  .title {
+    color: inherit;
+    font-size: rem(48);
+    font-weight: 300;
+    line-height: 56px;
+    margin: 0;
+  }
+
+  .richText {
+    color: inherit;
+    font-size: rem(16);
+    font-weight: 400;
+    line-height: 24px;
+    padding: 20px 0;
+  }
+
+  .imageWrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+
+    .logoWrapper {
+      position: absolute;
+
+      svg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    @media (min-width: $bp-md) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      img {
+        max-height: 100%;
+        object-fit: scale-down;
+        max-inline-size: none;
+      }
+    }
+
+    @media (min-width: $bp-lg) {
+      right: 0;
+      left: auto;
+    }
+  }
+
+  @media (min-width: $bp-md) {
+    &:not(.themeOverlay) {
+      .imageWrapper {
+        right: 0;
+        left: 450px;
+      }
+    }
+
+    .sunWrapper svg {
+      position: absolute;
+      top: 5%;
+      left: 500px;
+      height: 125%;
+      display: block;
+    }
+
+    :global .container {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .title {
+      font-size: rem(64);
+      line-height: 75px;
+    }
+
+    .richText {
+      font-size: rem(16);
+      line-height: 24px;
+    }
+  }
+
+  @media (min-width: $bp-lg) {
+    &:not(.themeOverlay) {
+      .imageWrapper {
+        right: -100px;
+        left: auto;
+      }
+    }
+
+    &.agentSearchVisible:not(.themeOverlay) {
+      .imageWrapper {
+        right: 0;
+        left: 500px;
+      }
+    }
+
+    .sunWrapper svg {
+      left: auto;
+      right: 0;
+    }
+
+    &.agentSearchVisible {
+      .sunWrapper svg {
+        left: auto;
+        right: -250px;
+      }
+    }
+  }
+
+  @media (min-width: $bp-xl) {
+    height: 550px;
+
+    &.agentSearchVisible:not(.themeOverlay) {
+      .imageWrapper {
+        right: 0;
+        left: 900px;
+      }
+
+      .sunWrapper svg {
+        left: auto;
+        right: -350px;
+      }
+    }
+
+    :global .container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .title {
+      font-size: rem(72);
+      line-height: 84px;
+    }
+
+    .richText {
+      font-size: rem(18);
+      line-height: 28px;
+    }
+  }
+
+  @media (min-width: $bp-xxl) {
+    &.agentSearchVisible:not(.themeOverlay) {
+      .sunWrapper svg {
+        left: auto;
+        right: -100px;
+      }
+
+      .imageWrapper {
+        left: auto;
+        right: 0;
+        width: 600px;
+      }
+    }
+
+    :global .container {
+      position: relative;
+    }
+  }
+
+  &.dark {
+    background: $color-secondary;
+    .content {
+      .title,
+      .richText {
+        color: $white;
+      }
+    }
+
+    .agentSearchWrapper {
+      background: $white;
+
+      @media (min-width: $bp-xl), (max-width: $bp-md-max) {
+        :global .as-title {
+          border-color: $color-secondary-lightest;
+        }
+      }
+    }
+  }
+}
+
+.contentWrapper {
+  position: relative;
+  z-index: 1;
+
+  @media (min-width: $bp-xl) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+}
+
+.content {
+  max-width: 500px;
+  padding: 0 0 30px 0;
+
+  a {
+    width: 100%;
+  }
+
+  @media (min-width: $bp-md) {
+    margin: 0 0 60px 0;
+    padding: 0;
+
+    a {
+      width: fit-content;
+    }
+  }
+
+  @media (min-width: $bp-xl) {
+    margin: 0;
+  }
+}
+
+/* Agent Search area specific styles */
+.agentSearchWrapper {
+  background: $color-secondary;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: $box-shadow-default;
+
+  :global .as-form {
+    :global .as-insuranceField,
+    :global .as-zipField {
+      margin: 0 0 20px 0;
+      display: block;
+    }
+  }
+
+  :global .as-zipField {
+    width: 100%;
+  }
+
+  :global .as-submitBtn {
+    margin-top: 20px;
+  }
+
+  @media (min-width: $bp-md) {
+    width: 100%;
+    height: fit-content;
+
+    :global .heroBannerAgentSearch {
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    :global .as-form {
+      display: flex;
+      align-items: flex-start;
+      padding: 0 0 0 20px;
+      flex-grow: 1;
+
+      :global .as-insuranceField {
+        flex: 2 1 40%;
+        margin: 0 20px 0 0;
+      }
+
+      :global .as-zipField {
+        flex: 1 1 30%;
+        margin: 0 20px 0 0;
+      }
+
+      :global .as-submitBtn {
+        flex: 1 1 30%;
+        width: auto;
+      }
+    }
+  }
+
+  @media (min-width: $bp-xl), (max-width: $bp-md-max) {
+    :global .heroBannerAgentSearch {
+      display: block;
+    }
+
+    :global .as-title {
+      text-align: center;
+      padding: 0 0 30px 0;
+      border-bottom: 2px solid $color-secondary-light;
+    }
+
+    :global .as-form {
+      display: flex;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      padding: 20px 0;
+
+      :global .as-insuranceField {
+        margin: 0 0 20px 0;
+        width: 100%;
+        flex: 1 0 auto;
+      }
+
+      :global .as-zipField {
+        margin: 0 20px 0 0;
+        flex: 1 0 50%;
+      }
+    }
+  }
+
+  @media (max-width: $bp-md-max) {
+    :global .as-title {
+      padding: 0 0 20px 0;
+    }
+
+    :global .as-form {
+      padding: 20px 0;
+
+      :global .as-insuranceField {
+        margin: 0 0 20px 0;
+      }
+
+      :global .as-zipField {
+        margin: 0 20px 0 0;
+      }
+    }
+  }
+
+  @media (min-width: $bp-xl) {
+    width: 330px;
+    margin-right: 90px;
+
+    :global .as-title {
+      padding: 0 0 30px 0;
+    }
+
+    :global .as-form {
+      padding: 20px 0;
+
+      :global .as-insuranceField {
+        margin: 0 0 20px 0;
+      }
+
+      :global .as-zipField {
+        margin: 0 20px 0 0;
+      }
+    }
+  }
+}

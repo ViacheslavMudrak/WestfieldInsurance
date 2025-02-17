@@ -1,0 +1,34 @@
+@use 'src/sass/abstracts' as *;
+
+.sliderWrapper {
+  :global {
+    .a11y-slider-dots {
+      @include resetList;
+      display: flex;
+      justify-content: center;
+      gap: rem(10);
+
+      button {
+        @include resetBtn;
+        font-size: 0;
+        inline-size: rem(15);
+        block-size: rem(15);
+        border-radius: 100%;
+        border: 1px solid $color-primary;
+
+        &.active {
+          background: $color-primary;
+        }
+
+        &:hover,
+        &:focus {
+          background: $color-primary;
+        }
+      }
+    }
+  }
+}
+
+.slider {
+  margin: 0 0 1rem;
+}

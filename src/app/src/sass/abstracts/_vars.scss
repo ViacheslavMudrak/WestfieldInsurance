@@ -1,0 +1,38 @@
+// Breakpoints
+$bp-sm: 576px;
+$bp-sm-max: 767px;
+$bp-md: 768px;
+$bp-md-max: 767px;
+$bp-lg: 960px;
+$bp-lg-max: 959px;
+$bp-xl: 1200px;
+$bp-xl-max: 1199px;
+$bp-xxl: 1440px;
+$bp-xxl-max: 1439px;
+$bp: $bp-lg !default;
+$bp-max: $bp-lg-max !default;
+
+// Container
+$gutters: 40px !default;
+$container-size: $bp-xxl !default;
+$box-shadow-default: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);
+$box-shadow-darker: 0px 10px 40px 0px rgba(0, 0, 0, 0.25);
+$box-shadow-wider: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+
+// Transition
+$transition-duration: 0.25s;
+$transition-ease: ease-in-out;
+$transition: all $transition-duration $transition-ease;
+
+// Font
+$base-font-size: 16;
+
+// Animations
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

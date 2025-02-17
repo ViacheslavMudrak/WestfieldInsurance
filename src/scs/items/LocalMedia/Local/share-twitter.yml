@@ -1,0 +1,57 @@
+﻿---
+ID: "a5d0504b-3bbd-42c5-a983-5502c8e7a777"
+Parent: "05c23ef0-5ba9-4591-a130-7e6900bc5859"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/WestfieldInsurance/WestfieldInsurance/Local/share-twitter"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/A5D0504B3BBD42C5A9835502C8E7A777.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 26
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "3933a5bd-2663-4b3e-995b-2c92b35ffbf3"
+  Value: iVBORw0KGgoAAAANSUhEUgAAABoAAAAWCAYAAADeiIy1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAILSURBVHgBrVU7buJQFL1+HqQpkCYdg4Q03sF4+EiUbwdhByEryLCCJGWqZAchO4AyFaGj4OMyJamgiyUaBBLkHGJH2HGcl+Aj2b7v43vu791nyYGoVqt6s9k4lmX5uVzOGwwG06R9Fl/1et1ZLpe+53m+GKJWq7kguIaoY0ttEF6SkEZst9uT0Wh0qriyWq20Uqrnuu6RCQkNA0kvgYRortfrXqVSeQYJ93Q5uSOC28d4XNu2J1TyGREV4ZNmlBOsd6iXnqlgIfzJCaw5+UgDQxYoMkEDnv8aDocPOyK46MWsaYPsNlAaARMvhoDei/F43KL8gy/kp4vJ/7F9TShtlstlGtHBnn4+n/cWi4WYAjrboWyFAhSeI54XkiHo/WQyeaK8Cx3CdAMSBxZMJUOEJMQudCB4BtEZHskKsby/egQX7yR7vCdCR5jCgpZkiP1CIOxQmM1mg2KxyJi6CKFRh0ghmSI/EcNVZKDUX5B4ciCSqlfFLOnj05ADQG/QRN/l3N4fIHyPCB8t0vJNoLD+zedzP5UoIOsXCoUuyH5yjO9vMQS7C3Jzn7RmJ03ConmpVGJhaDFsoEFfu/poPXJCtdZH6GUa4pkk3zVJBD68PkVeOmn7rL2bkp36S2XNs4J/WyY385tHuF2PUd6suEbaOQr6IQnueNDFEInNDaT07o9EPWSIvP1G+RW8AD3l+hLfljKuAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 630
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 26 x 22
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 22
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231122T200811Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92d03304-0498-4955-8697-068c5418ef0b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231122T200811Z

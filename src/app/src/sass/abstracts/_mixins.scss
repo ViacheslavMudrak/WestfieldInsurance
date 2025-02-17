@@ -1,0 +1,128 @@
+@use 'sass:math';
+@use './colors';
+@use './vars' as *;
+
+@mixin btn {
+  display: inline-block;
+  font-size: rem(18);
+  font-weight: bold;
+  vertical-align: middle;
+  margin: rem(5) 0;
+  padding: rem(21) rem(51);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: $transition;
+  background: colors.$red-dark;
+  color: colors.$white;
+  border: 0;
+  border-radius: rem(30);
+  line-height: 1;
+  -webkit-appearance: none;
+  white-space: normal;
+
+  &:hover,
+  &:focus {
+    background: colors.$color-secondary;
+    color: colors.$white;
+  }
+}
+
+@mixin sr-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  transition: none;
+
+  &.focusable:focus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: colors.$black;
+    color: colors.$white;
+    overflow: visible;
+    clip: auto;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    border: rem(2) dashed colors.$white;
+    padding: rem(15);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 9001;
+  }
+}
+
+// Usage: font-size: rem(18)
+@function rem($pixels, $context: $base-font-size) {
+  @return #{math.div($pixels, $context)}rem;
+}
+
+@mixin resetBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: $transition;
+}
+
+@mixin resetList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+@mixin table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+@function round($number, $decimals: 0) {
+  $n: 1;
+  @if $decimals > 0 {
+    @for $i from 1 through $decimals {
+      $n: $n * 10;
+    }
+  }
+  @return math.div(math.round($number * $n), $n);
+}
+
+@function px-to-rem($px) {
+  $rems: math.div($px, 16px) * 1rem;
+  @return $rems;
+}
+
+// Usage: font-size: #{fluid(16px, 31px)};
+// More info: https://www.smashingmagazine.com/2022/10/fluid-typography-clamp-sass-functions/
+@function fluid($min-size, $max-size, $min-breakpoint: 320px, $max-breakpoint: $bp, $unit: vw) {
+  $slope: math.div($max-size - $min-size, $max-breakpoint - $min-breakpoint);
+  $slope-to-unit: round($slope * 100, 2);
+  $intercept-rem: round(px-to-rem($min-size - $slope * $min-breakpoint), 2);
+  $min-size-rem: round(px-to-rem($min-size), 2);
+  $max-size-rem: round(px-to-rem($max-size), 2);
+  @return clamp(#{$min-size-rem}, #{$slope-to-unit}#{$unit} + #{$intercept-rem}, #{$max-size-rem});
+}

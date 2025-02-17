@@ -1,0 +1,44 @@
+﻿---
+ID: "a3c41114-f9e6-4cd2-a326-d1eb0178fa4d"
+Parent: "5a5aedf3-37b8-4bf9-96a6-aafaa29f210f"
+Template: "0f1e9a47-7fb6-45c8-849c-408a75c51628"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Prerak Test/Single Component/Data/HomepageHeroBanner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+      Hint: Link
+      Value: |
+        <link linktype="internal" id="{985F42CF-963D-4BCD-A2B3-A3F561CAC7CB}" anchor="" querystring="" target="" class="" text="CTA Button" title=""/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231019T154600Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Banner Title
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4117a684-8943-477e-aab4-12e412465e20"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231024T154256Z
+    - ID: "ea562e4c-1907-48a3-86d9-4337e7b0825e"
+      Hint: RichTextCopy
+      Value: test richtextcopy
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: 

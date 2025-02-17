@@ -1,0 +1,39 @@
+﻿---
+ID: "9e28618d-ec2f-4b03-bd54-d3941c755dc0"
+Parent: "48c9f5ab-5b45-40ac-ba1a-3aa0e37e933a"
+Template: "577c3909-f573-4414-aa1b-0000f734f2c6"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Resource Detail Page/Data/Video
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.youtube.com/embed/-xZJKezWLJQ?si=wkZVFQ-B3wRkIE0q" target="" class="" text="" title="" className=""/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T201651Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Video
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ef2d877-eb11-435a-9c06-4b9fb58cb4d2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240119T184720Z
+    - ID: "ea562e4c-1907-48a3-86d9-4337e7b0825e"
+      Hint: RichTextCopy
+      Value: <p>test of transcript</p>
+    - ID: "f8b9fa19-8f52-4b8c-97b9-187cf9499c59"
+      Hint: VideoCaption
+      Value: 

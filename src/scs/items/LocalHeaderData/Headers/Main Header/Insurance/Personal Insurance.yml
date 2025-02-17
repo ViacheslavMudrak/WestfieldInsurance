@@ -1,0 +1,26 @@
+﻿---
+ID: "f1004e5e-6b00-4a73-b6de-aba77255d9d5"
+Parent: "71a966ab-e5b2-4076-b64c-6732175ab03c"
+Template: "a1915165-6029-4bd8-8916-f6e8c3f1c6fc"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Headers/Main Header/Insurance/Personal Insurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230929T174130Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Personal Insurance
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36435dae-51d5-498b-9c03-9e0dc046d17e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230929T174130Z

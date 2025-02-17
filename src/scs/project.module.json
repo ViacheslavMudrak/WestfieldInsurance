@@ -1,0 +1,123 @@
+{
+   "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+   "namespace": "Project",
+   "items": {
+      "includes": [
+         {
+            "name": "Templates",
+            "path": "/sitecore/templates/Project",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+         },
+         {
+            "name": "BranchTemplates",
+            "path": "/sitecore/templates/Branches/Project",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+         },
+         {
+            "name": "Renderings",
+            "path": "/sitecore/layout/Renderings/Project",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+         },
+         {
+            "name": "PlaceholderSettings",
+            "path": "/sitecore/layout/Placeholder Settings/Project",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+         },
+         {
+            "name": "Layouts",
+            "path": "/sitecore/layout/Layouts/Project",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+         },
+         {
+            "name": "WestfieldInsuranceMedia",
+            "path": "/sitecore/Media Library/Project/WestfieldInsurance",
+            "rules": [
+              {
+                "path": "/shared",
+                "scope": "SingleItem",
+                "allowedPushOperations": "CreateOnly"
+              },
+              {
+                "path": "/WestfieldInsurance",
+                "scope": "SingleItem",
+                "allowedPushOperations": "CreateOnly"
+              },
+              {
+               "path": "/Rendering Thumbnails",
+               "scope": "ItemAndDescendants",
+               "allowedPushOperations": "CreateUpdateAndDelete"
+             }
+            ]
+         },
+         {
+            "name": "WestfieldInsurancePDFs",
+            "path": "/sitecore/Media Library/Project/WestfieldInsurance/WestfieldInsurance/IndexedPDFs",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+         },
+         {
+            "name": "Tenant",
+            "path": "/sitecore/content/WestfieldInsurance",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+         },
+         {
+            "name": "Sites",
+            "path": "/sitecore/content/WestfieldInsurance/Sites",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+         },
+         {
+            "name": "WestfieldInsuranceContent",
+            "path": "/sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance",
+            "rules": [
+               {
+                  "path": "/Home",
+                  "scope": "SingleItem",
+                  "allowedPushOperations": "CreateOnly"
+               },
+               {
+                  "path": "/Media",
+                  "scope": "SingleItem",
+                  "allowedPushOperations": "CreateOnly"
+               },
+               {
+                  "path": "/Data",
+                  "scope": "ItemAndChildren",
+                  "allowedPushOperations": "CreateOnly"
+               },
+               {
+                  "path": "/Dictionary",
+                  "scope": "ItemAndDescendants",
+                  "allowedPushOperations": "CreateOnly"
+               },
+               {
+                  "path": "/Presentation",
+                  "scope": "ItemAndDescendants",
+                  "allowedPushOperations": "CreateUpdateAndDelete"
+               },
+               {
+                  "path": "/Settings",
+                  "scope": "ItemAndDescendants",
+                  "allowedPushOperations": "CreateOnly"
+               },
+               {
+                  "path": "*",
+                  "scope": "ignored"
+               }
+            ]
+         },
+         {
+            "name": "GlobalContent",
+            "path": "/sitecore/content/WestfieldInsurance/Global",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+         }
+      ]
+   }
+}

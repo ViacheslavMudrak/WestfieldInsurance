@@ -1,0 +1,81 @@
+﻿---
+ID: "c3aed042-4b5e-42d6-a6da-4313819b2016"
+Parent: "bf92de4d-ae38-4bfa-8ec0-be188590c7f7"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/WestfieldInsurance/WFI Components/Share Article
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: ShareArticle
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_out.png
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: |
+    query GetShareArticle(
+      $datasource: String!  
+      $language: String!) {
+      item(path: $datasource, language: $language) {
+        ... on ShareArticle {
+                title: field(name: "Title") {
+                  jsonValue
+                }
+            shareIcons: children(includeTemplateIDs: ["{41284EAB-10E9-4683-BB17-8160BE3548B7}"]) {
+              results {
+                ... on ShareIcon {
+                  id
+                  image {
+                    jsonValue
+                  }
+                  link {
+                    jsonValue
+                  }
+                  helperText {
+                    jsonValue
+                  }
+                  
+                  }
+                }
+              }      
+            }   
+      }
+    }
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: 
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: 
+- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
+  Hint: Rendering Contents Resolver
+  Value: 
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T145738Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "839ec0b5-7745-4578-87d2-d26d18fa6945"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231122T201349Z

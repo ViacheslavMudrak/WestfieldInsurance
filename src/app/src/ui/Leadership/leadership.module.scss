@@ -1,0 +1,207 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapperBio {
+  position: relative;
+  .accentBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: rem(220);
+    z-index: -1;
+    background: $color-primary;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      background: $color-primary;
+      background: linear-gradient(
+        90deg,
+        $color-primary 50%,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    img {
+      display: block;
+      object-fit: cover;
+      margin-left: auto;
+      opacity: 0.5;
+      height: 100%;
+    }
+  }
+  .biography {
+    color: $color-secondary;
+    font-size: rem(16);
+  }
+}
+
+.innerBio {
+  .personName,
+  .title {
+    color: $white;
+    text-align: center;
+  }
+
+  .personName {
+    margin-bottom: rem(10);
+    font-weight: 300;
+    font-size: rem(30);
+    line-height: 1.1;
+  }
+
+  .title {
+    font-size: rem(14);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: rem(20);
+  }
+
+  .imageWrap {
+    width: rem(200);
+    height: rem(200);
+    border-radius: rem(100);
+    box-shadow: 0 0 0 2px $color-primary;
+    overflow: hidden;
+    margin: 0 auto rem(30);
+    img {
+      height: 100% !important;
+      object-fit: cover;
+    }
+  }
+
+  .nextLink {
+    padding-top: rem(30);
+    margin-bottom: rem(30);
+    display: flex;
+    align-content: center;
+    color: $color-primary;
+    font-size: rem(16);
+
+    a {
+      text-decoration: underline;
+      color: inherit;
+      font-size: inherit;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+        font-weight: 700;
+        color: inherit;
+      }
+    }
+  }
+}
+
+.listingItem {
+  padding: rem(30) rem(30) rem(50);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: rem(10);
+  color: $color-secondary;
+  text-align: center;
+
+  .imageWrap {
+    width: rem(200);
+    height: rem(200);
+    border-radius: rem(100);
+    box-shadow: 0 0 0 2px $color-primary;
+    overflow: hidden;
+    margin-bottom: rem(20);
+    img {
+      height: 100% !important;
+      object-fit: cover;
+    }
+  }
+
+  .personName {
+    font-weight: 300;
+    font-size: rem(30);
+    line-height: 1.1;
+  }
+
+  .title {
+    font-size: rem(14);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: rem(20);
+  }
+}
+
+@media (min-width: $bp-md) {
+  .innerBio {
+    .personName {
+      font-size: rem(36);
+    }
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .wrapperBio {
+    .accentBackground {
+      height: rem(290);
+    }
+  }
+
+  .innerBio {
+    display: grid;
+    grid-template-columns: rem(230) auto rem(230);
+    grid-template-rows: 1fr 1fr auto auto;
+    column-gap: rem(60);
+    padding-top: rem(30);
+    padding-bottom: rem(60);
+    .personName,
+    .title {
+      text-align: left;
+    }
+    .imageWrap {
+      grid-area: 1/1/3/2;
+      width: rem(230);
+      height: rem(230);
+      border-radius: rem(115);
+      margin: 0 0 rem(60);
+    }
+    .personName {
+      font-size: rem(48);
+      grid-area: 1/2/2/4;
+      margin-top: 0;
+      margin-bottom: rem(20);
+      align-self: flex-end;
+    }
+    .title {
+      grid-area: 2/2/3/4;
+      margin-top: 0;
+    }
+    .biography {
+      grid-area: 3/2/4/4;
+      font-size: rem(18);
+    }
+    .nextLink {
+      grid-area: 4/2/5/4;
+      font-size: rem(18);
+    }
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .innerBio {
+    .biography {
+      grid-area: 3/2/4/3;
+    }
+    .nextLink {
+      grid-area: 4/2/5/3;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿---
+ID: "e628cd98-e9b5-4922-b46d-a71d2129a92f"
+Parent: "10863516-0c3c-48f8-bc00-0951fd865f82"
+Template: "10863516-0c3c-48f8-bc00-0951fd865f82"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Career Listing/Career Listings/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{C51CD8A9-3878-4427-B07B-2104972C753E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T185150Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a3631f8-edaf-40b1-855b-cf278d05ab49"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231031T151535Z

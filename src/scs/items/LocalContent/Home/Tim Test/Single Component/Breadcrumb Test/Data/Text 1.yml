@@ -1,0 +1,38 @@
+﻿---
+ID: "383a27d2-61f6-4b68-8401-f9e90b4d2df9"
+Parent: "11b4e7bb-e9e8-40c8-a1c9-6c8c02f84bf6"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Breadcrumb Test/Data/Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240119T192555Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p>Whether it's providing tools to put a purple octopus on the moon, or enabling teachers to bring arts-infused learning into the classroom, Crayola is passionate about helping parents and educators raise creatively alive children who we believe will grow to be inspired, original adults.</p><p><br /></p><p>Our company has inspired artistic creativity in children for more than 100 years - since the first box of Crayola crayons rolled off the assembly line in 1903. The company began when cousins Edwin Binney and C. Harold Smith took over Edwin's father's pigment business in 1885. Early products included red oxide pigment used as barn paint and carbon black used in car tires.&nbsp;</p><p><br /></p><p>After noticing a need for safe, high quality, affordable wax crayons, in 1903, Crayola produced the first box of eight crayons and sold them for 5 cents.&nbsp;</p><p><br /></p><p>Since then, the Crayola brand has grown into a portfolio of innovative art tools, crafting activities, and creative toys that give kids the power to express all that inspires them as they explore, discover, play, pretend, and dream.&nbsp;</p><p><br /></p><p>In 1984, Crayola became a wholly-owned subsidiary of Hallmark Cards and has since played a significant role in Hallmark’s personal development strategies.&nbsp;</p><p><br /></p><p>The company carried the name of its founders, Binney &amp; Smith, until 2007 when we changed our name to Crayola to reflect our No. 1 brand.&nbsp;</p><p><br /></p><p>Crayola has called Lehigh Valley, Pennsylvania, its home since the turn of the century. Today, the company's world headquarters and major manufacturing facilities are located there. Downtown Easton is the home of The Crayola EXPERIENCE®, our interactive brand experience where families can enjoy a day of creative fun and see how we make our iconic Crayola crayons and markers.&nbsp;</p><p><br /></p><p>new version 2</p><p class="rte-align-center"><br /></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55ab3d57-cc46-4be5-8700-865a22ef80f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240119T192817Z

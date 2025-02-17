@@ -1,0 +1,10 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+cd src/app
+# Fix console spam: https://github.com/typicode/husky/issues/968#issuecomment-1176848345
+if [[ -t 1 && -t 2 ]]; then exec >/dev/tty 2>&1; fi
+echo "Running type check"
+npm run check-types
+echo "Type check successful"
+npx lint-staged

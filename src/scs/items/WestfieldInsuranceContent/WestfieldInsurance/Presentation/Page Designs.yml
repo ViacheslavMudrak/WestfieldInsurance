@@ -1,0 +1,39 @@
+﻿---
+ID: "f87a85fe-38e9-47ea-84fd-114b62d4dfdd"
+Parent: "46d607b1-ba9f-4248-90c4-b5c3ccb54681"
+Template: "ff4a6441-86f3-4486-b49e-9cc62a1005a0"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Presentation/Page Designs
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7bF89682A1-E13A-45B9-9202-2FF80D7AC972%7d%3d%257B812CA0DC-8909-4BC0-937B-AAECF1E385C1%257D%26%7bE96E6D40-4279-4C0B-8EF7-7C3B46F3FA85%7d%3d%257B812CA0DC-8909-4BC0-937B-AAECF1E385C1%257D%26%7b4AD81F4D-E79C-475D-A270-9194D96D46B5%7d%3d%257BE7303029-E715-4EEF-BE3F-DE5BF7B5937C%257D%26%7b867610EA-18EF-4564-8CF8-37FE4A186A50%7d%3d%257B7BA5550B-5179-4989-BB02-23938176E569%257D%26%7b2A86A425-E741-4D54-93B4-F411F57B1E3F%7d%3d%257B88126DF1-23A5-4F6C-AE27-E6CBA9BBBC83%257D%26%7b87F7E155-87F0-4FF1-A78A-1DEA93BADA86%7d%3d%257B17485B07-CEDA-4E76-8AC5-E2FBF145DD82%257D"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230920T151255Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c920337-c2ef-4750-bb12-b7f81091a3c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231130T144435Z

@@ -1,0 +1,54 @@
+﻿---
+ID: "d5d1b8e2-888a-46a2-b665-1b9985cfb014"
+Parent: "05c23ef0-5ba9-4591-a130-7e6900bc5859"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/WestfieldInsurance/WestfieldInsurance/Local/instagram
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/D5D1B8E2888A46A2B6651B9985CFB014.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 20
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "cd3f83fa-aa36-4107-9057-14dfa89101b5"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+DQogIDxwYXRoDQogICAgZmlsbD0iI2ZmZmZmZiINCiAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiDQogICAgZD0iTTEwLjAwMiA0Ljg3MkE1LjEyIDUuMTIgMCAwIDAgNC44NzYgMTBhNS4xMiA1LjEyIDAgMCAwIDUuMTI2IDUuMTI4QTUuMTIgNS4xMiAwIDAgMCAxNS4xMyAxMGE1LjEyIDUuMTIgMCAwIDAtNS4xMjctNS4xMjhabTAgOC40NjJBMy4zNCAzLjM0IDAgMCAxIDYuNjcgMTBhMy4zMzcgMy4zMzcgMCAwIDEgMy4zMzMtMy4zMzRBMy4zMzcgMy4zMzcgMCAwIDEgMTMuMzM1IDEwYTMuMzQgMy4zNCAwIDAgMS0zLjMzMyAzLjMzNFptNi41MzItOC42NzFhMS4xOTYgMS4xOTYgMCAxIDAtMi4zOTIgMCAxLjE5NiAxLjE5NiAwIDAgMCAyLjM5MiAwWm0zLjM5NiAxLjIxM2MtLjA3Ni0xLjYwMi0uNDQyLTMuMDItMS42MTUtNC4xOUMxNy4xNDUuNTE2IDE1LjcyNy4xNSAxNC4xMjUuMDdjLTEuNjUtLjA5My02LjYtLjA5My04LjI1IDAtMS41OTcuMDc2LTMuMDE2LjQ0Mi00LjE5IDEuNjExQy41MTIgMi44NTEuMTUxIDQuMjcuMDcgNS44NzFjLS4wOTMgMS42NTItLjA5MyA2LjYwMSAwIDguMjUzLjA3NiAxLjYwMi40NDIgMy4wMiAxLjYxNSA0LjE5IDEuMTc0IDEuMTcgMi41ODggMS41MzUgNC4xOSAxLjYxNiAxLjY1LjA5MyA2LjYuMDkzIDguMjUgMCAxLjYwMi0uMDc2IDMuMDItLjQ0MiA0LjE5LTEuNjE2IDEuMTY5LTEuMTcgMS41MzQtMi41ODggMS42MTUtNC4xOS4wOTMtMS42NTIuMDkzLTYuNTk2IDAtOC4yNDhabS0yLjEzMyAxMC4wMmEzLjM3NSAzLjM3NSAwIDAgMS0xLjkgMS45Yy0xLjMxNy41MjMtNC40NC40MDItNS44OTUuNDAyLTEuNDU0IDAtNC41ODIuMTE2LTUuODk0LS40MDJhMy4zNzUgMy4zNzUgMCAwIDEtMS45LTEuOWMtLjUyMy0xLjMxNy0uNDAyLTQuNDQxLS40MDItNS44OTZzLS4xMTYtNC41ODMuNDAxLTUuODk1YTMuMzc1IDMuMzc1IDAgMCAxIDEuOTAxLTEuOTAxYzEuMzE2LS41MjMgNC40NC0uNDAyIDUuODk0LS40MDIgMS40NTUgMCA0LjU4Mi0uMTE2IDUuODk0LjQwMmEzLjM3NSAzLjM3NSAwIDAgMSAxLjkwMSAxLjljLjUyMiAxLjMxNy40MDIgNC40NDEuNDAyIDUuODk2cy4xMiA0LjU4My0uNDAyIDUuODk1WiINCiAgLz4NCjwvc3ZnPg0K
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1176
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 20
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231130T193626Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27ce6806-a2f4-47f7-b918-3a603fa1f7fe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231130T193711Z

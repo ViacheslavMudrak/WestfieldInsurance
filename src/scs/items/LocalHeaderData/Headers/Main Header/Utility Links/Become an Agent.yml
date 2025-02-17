@@ -1,0 +1,35 @@
+﻿---
+ID: "f70efea7-81a9-4c4c-8a48-42e6f6518f2c"
+Parent: "d0461290-4248-4e86-8c62-62a1d3c5fc5b"
+Template: "635deba3-03d4-4c06-ab43-2339c3e84d57"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Headers/Main Header/Utility Links/Become an Agent
+Languages:
+  - Language: en
+    Versions:
+      - Version: 1
+        Fields:
+          - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+            Hint: Link
+            Value: |
+              <link text="Become an Agent" anchor="" linktype="internal" class="" title="" target="|Custom" querystring="" id="{0C20C905-3D65-4418-9DE0-28D4D4E815C6}" />
+          - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+            Hint: __Created
+            Value: 20231006T210044Z
+          - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+            Hint: __Owner
+            Value: |
+              sitecore\tim.shanahan@americaneagle.com
+          - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+            Hint: __Created by
+            Value: |
+              sitecore\tim.shanahan@americaneagle.com
+          - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+            Hint: __Revision
+            Value: "8f39e041-232d-4b37-a34f-18d0aafe6130"
+          - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+            Hint: __Updated by
+            Value: |
+              sitecore\tim.shanahan@americaneagle.com
+          - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+            Hint: __Updated
+            Value: 20231014T185501Z

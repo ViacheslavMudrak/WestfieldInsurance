@@ -1,0 +1,31 @@
+﻿---
+ID: "a34d139e-81bf-4882-a370-3212764ef28f"
+Parent: "05c2600c-8af9-4eb0-b488-4a33cf1bffaa"
+Template: "ce6bebde-18af-49d8-b7e6-1b42b132c66b"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Content detail page/Data/Content Detail Navigation with Child Item 1
+BranchID: "017d4203-6fbc-46d7-9234-10d5e36356f8"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EB427ED6-2B5E-410C-BD3A-0DDE5AEC8A62}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240212T201012Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Content Detail Navigation with Child Item 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "506075cd-a35a-41d4-9492-bfed0b3ad49a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240212T201012Z

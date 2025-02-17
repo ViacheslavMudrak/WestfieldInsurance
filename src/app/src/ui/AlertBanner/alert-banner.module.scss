@@ -1,0 +1,66 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapper {
+  padding: rem(20);
+  position: relative;
+  background-color: $color-yellow-dark;
+  &.dark {
+    background-color: $red-dark;
+    color: $white;
+  }
+  &.light {
+    background-color: $color-secondary-lightest;
+  }
+}
+
+.close {
+  @include resetBtn;
+  width: rem(40);
+  height: rem(40);
+  position: absolute;
+  right: 0;
+  top: rem(20);
+  color: inherit;
+  fill: currentColor;
+}
+
+.inner {
+  padding-right: rem(40);
+  p,
+  div {
+    display: inline;
+  }
+  .icon {
+    vertical-align: middle;
+    padding-right: 0.5rem;
+  }
+  .link,
+  .link a {
+    color: $black;
+    font-weight: 700;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (min-width: $bp-md) {
+  .close {
+    right: rem(5);
+    top: rem(10);
+  }
+  .inner {
+    text-align: center;
+  }
+}
+
+@media (min-width: $bp) {
+  .wrapper {
+    padding: rem(17);
+  }
+  .inner {
+    font-size: rem(18);
+  }
+  .close {
+    right: rem(5);
+    top: rem(16);
+  }
+}

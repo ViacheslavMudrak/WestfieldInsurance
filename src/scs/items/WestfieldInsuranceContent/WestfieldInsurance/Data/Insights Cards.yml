@@ -1,0 +1,23 @@
+﻿---
+ID: "61aed329-6d35-4fb4-b9ee-c1ec6f34deec"
+Parent: "37534e75-84eb-4f35-b365-70925ae84504"
+Template: "cd891724-5523-416f-82a2-57e184ccbc93"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Insights Cards
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231024T122301Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "374383a1-7b1e-4d36-ad36-6d695aef5efc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231024T122301Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "8899ee9f-a6e6-426e-a3d7-dcdbac9e96f4"
+Parent: "4969f236-bf0c-4783-b431-6938a7707b1a"
+Template: "e6114d50-0996-45a5-aa18-b7831c67986a"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Headers/Main Header/Featured Header Cards/Featured Header Card
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{985F42CF-963D-4BCD-A2B3-A3F561CAC7CB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230929T173451Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Featured Header Card
+    - ID: "850c63b4-39f6-47dc-8f07-6da89411d7d1"
+      Hint: Copy
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "294337c9-1cb9-4098-abcc-5de6345a6845"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231130T145224Z
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: |
+        <image mediaid="{DFC50F3E-B276-42AA-BD17-467063C3E66D}" />

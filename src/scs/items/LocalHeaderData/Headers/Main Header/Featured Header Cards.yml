@@ -1,0 +1,23 @@
+﻿---
+ID: "4969f236-bf0c-4783-b431-6938a7707b1a"
+Parent: "49e4c7b8-0bd3-411c-804a-fbc24f8106a6"
+Template: "82b01987-5609-4e99-b97c-ba243850e42e"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Headers/Main Header/Featured Header Cards
+Languages:
+  - Language: en
+    Versions:
+      - Version: 1
+        Fields:
+          - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+            Hint: __Created
+            Value: 20231014T112947Z
+          - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+            Hint: __Revision
+            Value: "31be99d3-288a-4b47-98b6-6b68b0c7439d"
+          - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+            Hint: __Updated by
+            Value: |
+              sitecore\tim.shanahan@americaneagle.com
+          - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+            Hint: __Updated
+            Value: 20231014T112947Z

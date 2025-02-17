@@ -1,0 +1,90 @@
+@use 'src/sass/abstracts' as *;
+
+.benefits {
+  padding: 30px 0;
+  margin: 0 auto;
+
+  .label {
+    color: $red-dark;
+    font-size: rem(14);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .title {
+    color: $color-secondary;
+    font-size: rem(30);
+    font-weight: 300;
+    line-height: 35px;
+    margin: 10px 0 15px 0;
+  }
+
+  .subtitle {
+    color: $color-secondary;
+    font-size: rem(16);
+    a {
+      color: inherit;
+      &:focus,
+      &:hover {
+        text-shadow: 0.5px 0 0 currentColor;
+        color: inherit;
+      }
+    }
+  }
+
+  .label {
+    font-size: rem(14);
+  }
+
+  .label,
+  .title,
+  .subtitle {
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 35px;
+    padding: 30px 0 0 0;
+  }
+
+  @media (min-width: $bp-md) {
+    padding: 90px 0;
+
+    .title {
+      font-size: rem(36);
+      font-weight: 300;
+      line-height: 42px;
+    }
+
+    .subtitle {
+      max-width: 80%;
+      font-size: rem(16);
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: $bp) {
+    .subtitle {
+      font-size: rem(18);
+    }
+  }
+
+  @media (min-width: $bp-xl) {
+    .title {
+      font-size: rem(48);
+      font-weight: 300;
+      line-height: 56px;
+    }
+  }
+}
+
+.darkTheme {
+  background-color: $bg-gray;
+}

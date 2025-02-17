@@ -1,0 +1,58 @@
+﻿---
+ID: "b9702e0f-c359-443e-a33e-a7eb0957252a"
+Parent: "84f518cf-350d-401f-b7b4-583166540abd"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Presentation/Styles/Component Themes/light
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "light|theme light-theme"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Value: |
+    {AB92BBF8-12A5-4D3A-B2E6-3FA37A386235}
+    {F2B65F30-E375-4044-8BE8-F0746D29754D}
+    {D6549638-DF31-482F-BCB1-A6BE5F76B95F}
+    {0D032F84-895E-4F22-919F-8A45FA7E8C57}
+    {650CCBF4-DD6E-4436-8899-38A882FC804D}
+    {8F14CDE3-5936-4CB9-B534-404C75BCEF7E}
+    {231ED99E-34BB-49A5-9CAC-0132A243E5AD}
+    {29068458-E606-4F9E-95BC-ECF3B8722EC1}
+    {0A4BDC88-8733-4194-956E-C5974FEE0653}
+    {445FF7C0-F475-4116-8E67-35C681BF82F4}
+    {2966000B-4D21-4244-AB61-C527D2052A26}
+    {59D556AB-1684-4CC1-B60C-AFF7134B428D}
+    {1ADA836C-D970-4B70-9C6C-059DD5FD660E}
+    {F44287FF-5C8D-4CE3-B4F3-EC09BF0C3843}
+    {4CC36505-4643-4F77-A784-9F81CCA5CDDF}
+    {B66091C6-0A3A-4C8F-8879-6CAD3CF16602}
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Light
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231020T140625Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "219e8615-a31a-49a3-b3ec-e27f9a86856e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jason.dilday@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240605T134018Z

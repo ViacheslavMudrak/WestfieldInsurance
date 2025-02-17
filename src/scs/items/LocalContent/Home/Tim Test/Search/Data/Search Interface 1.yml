@@ -1,0 +1,48 @@
+﻿---
+ID: "2a80923c-de6e-482b-a77e-517f5ea3f891"
+Parent: "45f7500e-0164-42e7-a933-ca58701546b7"
+Template: "0d705892-6a9c-4738-b64c-3755b043a7ec"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Search/Data/Search Interface 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T162455Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Search Results
+    - ID: "3208f722-fd86-4f36-b875-9ebabb28f358"
+      Hint: IncludeDateRangeFacet
+      Value: 1
+    - ID: "49afc682-6417-4fe4-8c22-a62ca632cbf0"
+      Hint: Facets
+      Value: |
+        {EFFE4988-8A49-4923-A843-8A2A1252CC8E}
+        {79726EA5-B243-47C5-A7B3-34D6F0F05F55}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "5db75e16-70dd-41d9-9d4b-5ec28a0c14b1"
+      Hint: SearchEngine
+      Value: "{431C3E64-355A-48E9-A3AF-C25688908844}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "82a1917f-ab13-49d4-be08-dfdcb06fafd3"
+      Hint: Tags
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b186ac6-ad27-429d-83d7-9b2fe2b8b8d3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240315T160243Z

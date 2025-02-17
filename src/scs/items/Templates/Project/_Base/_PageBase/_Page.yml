@@ -1,0 +1,41 @@
+﻿---
+ID: "69b5275f-f9d0-4540-8651-a4984c1448e8"
+Parent: "b675e832-1d77-41c1-85a1-8ae1cf156045"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/_Base/_PageBase/_Page
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {6AA4774C-9101-4855-9CF3-5931FAD104E6}
+    {C4E9C48C-FD17-4ABF-ACA2-E34BE73852D4}
+    {0D10FBF0-BAC1-4559-964D-87735AB7E536}
+    {0399B38D-9720-4F28-8588-291BF640BA07}
+    {7DD282AF-F38C-4CC8-BADD-F30F42D67991}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231030T164229Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jason.dilday@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jason.dilday@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ef2f367-4ef3-4f08-b39d-c3d64218943b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240111T194834Z

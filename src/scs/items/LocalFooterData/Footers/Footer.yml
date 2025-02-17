@@ -1,0 +1,78 @@
+﻿---
+ID: "636597d5-f56e-4676-8018-57cee47052cd"
+Parent: "54a3ca1b-a990-4cd3-9212-69977378776c"
+Template: "f0d4e691-9edf-44ec-b4b6-9c7eaa798bfb"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Footers/Footer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a39a171-fb19-420e-8a89-ca0ddd270067"
+      Hint: FooterSocialMediaLinks
+      Value: |
+        {A6DDBB58-4787-4A1A-A665-66F9FE27800E}
+        {684CBE95-A95D-4C7A-A80A-319BDD280341}
+        {080A1FBD-31D0-4217-9302-D96B97A1442D}
+    - ID: "17cf2e26-7067-41b5-8480-15b03b5f9a93"
+      Hint: FooterRelevantLinks
+      Value: |
+        {9A67AC24-BF88-4812-BC7D-1BB658409026}
+        {A3592299-78FD-4A8C-A6D6-ECA8BE6002E8}
+        {67606DA4-E96E-4F0E-A6D3-B93DD755ABF0}
+        {F7FD7720-14B6-4BA0-9E49-22C97A398F5A}
+        {5AD3B41C-B20A-4707-872F-4202548DB5D9}
+    - ID: "2510e3d4-2d86-4ec9-9f36-ffda5968a988"
+      Hint: PhoneNo
+      Value: |
+        <link text="800.243.0210" linktype="external" url="tel:800.243.0210" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230929T205707Z
+    - ID: "2e4b7501-dcc2-41e2-a29c-6859b3463ff2"
+      Hint: FooterNavigationGroups
+      Value: |
+        {64EC60C8-E315-4FCB-B644-E562D7C3CABD}
+        {3194EE73-FFFF-4667-B079-34088065BBF7}
+        {53DCDA23-F6A6-4363-A5C4-9C1FE3746059}
+        {59323651-5BED-4A09-848C-F79ABDF188EC}
+        {BA436023-524E-4E73-AF02-0DB51C2209B0}
+        {772E2604-3889-4007-AF94-11538D1A0F79}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "608bb89c-0b00-4264-a7af-333325b4a40a"
+      Hint: Addresses
+      Value: |
+        {1BA76EA0-DFD0-41B9-8EA0-8421F63E171F}
+        {5545A45B-8442-4F0E-9273-67E63ACA20BA}
+    - ID: "8446415f-5e71-40f8-b6c3-db2bffca1359"
+      Hint: FooterRelevantTexts
+      Value: |
+        {C69D16AE-90C8-4764-91E9-1616F062913C}
+        {097063BE-D2FD-46C4-8C65-98F21F7C90D6}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c6f96cb-e6bc-43a9-b4ea-94dbe2b41098"
+    - ID: "a80f7480-f9df-41ec-9a56-59aca5dc0fba"
+      Hint: Email
+      Value: |
+        <link text="Send a Message" linktype="mailto" style="" url="mailto:user@westfieldgrp.com" title="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "c0590a6a-b7a7-4057-a2d4-2d7cdd5b4255"
+      Hint: LegalDisclaimer
+      Value: The information contained herein is provided solely as a general overview of products and services offered by Westfield and does not replace the terms and conditions of your actual policy language. This information is not to be considered a firm offer to sell insurance and does not constitute a binding contract. All applications for insurance are subject to normal underwriting standards and guidelines applicable to a risk.  For more information on coverages and limits, please contact your Westfield agent.  Westfield reserves the right to change any of the terms and conditions or the availability of products and services. Products and services may not be available in all states.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240313T161314Z
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: 

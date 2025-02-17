@@ -1,0 +1,23 @@
+trigger:
+  - none
+
+pr:
+  - develop
+
+pool:
+  name: Sitecore
+
+steps:
+  - task: NodeTool@0
+    displayName: "Use Node 18.17.1"
+    inputs:
+      versionSpec: 18.17.1
+
+  - powershell: |
+      npm install
+      npm run bootstrap
+      npm run check-types
+      npm run lint
+
+    workingDirectory: src/app
+    displayName: Code Tests

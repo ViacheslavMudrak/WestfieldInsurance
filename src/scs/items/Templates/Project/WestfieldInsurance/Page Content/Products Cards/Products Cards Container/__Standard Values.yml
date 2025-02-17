@@ -1,0 +1,30 @@
+﻿---
+ID: "e0c96032-47ae-4369-87df-5231afd6d783"
+Parent: "0db034da-34f9-44d5-a71c-7c1ca6a27119"
+Template: "0db034da-34f9-44d5-a71c-7c1ca6a27119"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Products Cards/Products Cards Container/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{424C020E-75AE-4C8B-9318-6C348F07D356}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T185150Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f615ead-cb63-447d-a75c-39eff24d6c12"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231024T200109Z

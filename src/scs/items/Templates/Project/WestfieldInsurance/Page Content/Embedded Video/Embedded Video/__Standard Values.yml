@@ -1,0 +1,26 @@
+﻿---
+ID: "66338485-c0b4-4ab6-bef3-e6a09743ba4d"
+Parent: "577c3909-f573-4414-aa1b-0000f734f2c6"
+Template: "577c3909-f573-4414-aa1b-0000f734f2c6"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Embedded Video/Embedded Video/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T185150Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e365341d-9c94-4ca1-9b65-256d45b14569"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231109T164344Z

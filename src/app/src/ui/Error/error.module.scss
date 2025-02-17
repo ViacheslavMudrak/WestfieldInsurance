@@ -1,0 +1,102 @@
+@use 'src/sass/abstracts' as *;
+
+.error {
+  position: relative;
+
+  atomic-search-box {
+    flex-grow: 1;
+    width: 300px;
+
+    @media (min-width: 768px) {
+      width: 400px;
+    }
+  }
+
+  atomic-search-box::part(wrapper) {
+    margin-bottom: 30px;
+  }
+
+  .contentWrapper {
+    padding: 40px 0px;
+
+    @media (min-width: $bp-md) {
+      padding: 40px;
+    }
+
+    a {
+      display: inline-flex;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  .title {
+    color: inherit;
+    font-size: rem(36);
+    font-weight: 300;
+    line-height: 56px;
+    margin: 0;
+  }
+
+  .richText {
+    color: inherit;
+    font-size: rem(16);
+    font-weight: 400;
+    line-height: 24px;
+    padding: 20px 0;
+  }
+
+  .imageWrapper {
+    height: 450px;
+    margin-bottom: 4rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: right middle;
+    }
+  }
+
+  @media (min-width: $bp-md) {
+    .contentWrapper {
+      position: absolute;
+      top: 40px;
+      left: 60px;
+      border-radius: 4px;
+      background: $white;
+      box-shadow: $box-shadow-default;
+    }
+
+    .title {
+      font-size: rem(56);
+      line-height: 75px;
+    }
+
+    .richText {
+      font-size: rem(16);
+      line-height: 24px;
+    }
+  }
+
+  @media (min-width: $bp-xl) {
+    .imageWrapper {
+      height: 550px;
+    }
+
+    .contentWrapper {
+      position: absolute;
+      transform: none;
+    }
+
+    .title {
+      font-size: rem(56);
+      line-height: 75px;
+    }
+
+    .richText {
+      font-size: rem(18);
+      line-height: 28px;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  background: #fff;
+  transition: all 0.2s ease-out;
+  border: 2px solid $color-primary;
+  padding: 20px;
+  z-index: 9001;
+
+  &.hide {
+    display: none;
+  }
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 100%;
+  padding: 5px;
+  background: #fff;
+  border: 2px solid $color-primary;
+  border-left: 1px solid #fff;
+  cursor: pointer;
+  font-size: x-rem(font-size, 14px);
+
+  svg {
+    position: relative;
+    flex: 0 0 auto;
+    width: 1em;
+    height: 1em;
+    top: 1px;
+  }
+}
+
+.wrapper:hover {
+  left: 0;
+}
+
+.wrapper ul {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.wrapper a {
+  display: inline-block;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

@@ -1,0 +1,27 @@
+﻿---
+ID: "97a80c78-6f09-4a51-bf2c-c40e55fad032"
+Parent: "f82d1b9f-9334-4ae6-a681-a0b8e35e9016"
+Template: "f82d1b9f-9334-4ae6-a681-a0b8e35e9016"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/Product Comparison/Comparison Matrix/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T185150Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5430e4a1-d43f-47b2-91bf-cd226b62ec8d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240104T225238Z

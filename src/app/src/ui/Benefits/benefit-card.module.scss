@@ -1,0 +1,113 @@
+@use 'src/sass/abstracts' as *;
+
+.card {
+  text-align: center;
+  flex: 0 0 100%;
+  margin: 0 auto;
+  text-decoration: none;
+  position: relative;
+  transition: $transition;
+
+  &.hasLink {
+    &:focus,
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+
+  .content {
+    margin: 0 auto;
+  }
+
+  .icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: $bg-gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    &.darkTheme {
+      background-color: $white;
+    }
+
+    svg,
+    img {
+      height: 48px;
+      width: 48px;
+    }
+  }
+
+  .title {
+    color: $color-secondary;
+    font-weight: 500;
+    font-size: rem(24);
+    margin: 20px 0 10px 0;
+  }
+
+  .benefitsCardLinkText {
+    color: inherit;
+    text-decoration: none;
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: 10;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
+
+  .richText {
+    color: $color-secondary;
+    font-size: rem(16);
+
+    a {
+      text-decoration: underline;
+      color: $red-dark;
+
+      &:focus,
+      &:hover {
+        font-weight: 700;
+        color: $red-dark;
+      }
+    }
+  }
+
+  @media (min-width: $bp-md) {
+    width: calc(33% - 10px);
+    flex-basis: calc(33% - 10px);
+
+    .content {
+      max-width: 330px;
+    }
+
+    .title {
+      font-size: rem(28);
+    }
+
+    .icon {
+      height: 120px;
+      width: 120px;
+
+      svg,
+      img {
+        height: 60px;
+        width: 60px;
+      }
+    }
+  }
+
+  @media (min-width: $bp-xl) {
+    .title {
+      font-size: rem(32);
+    }
+
+    .richText {
+      font-size: rem(18);
+    }
+  }
+}

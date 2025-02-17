@@ -1,0 +1,41 @@
+@use 'src/sass/abstracts' as *;
+
+.location {
+  color: $white;
+  margin: 0 40px 40px 0;
+
+  a {
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    margin: 0 0 4px 0;
+    padding-left: 36px;
+    padding-right: 20px;
+    position: relative;
+
+    svg {
+      height: 24px;
+      width: 24px;
+      position: absolute;
+      top: 2px;
+      left: 0;
+    }
+  }
+
+  @media (min-width: $bp-md) {
+    margin: 0 0 40px 0;
+  }
+
+  @media (min-width: $bp-xl) {
+    margin: 0;
+    display: block;
+    grid-column: 1;
+    width: max-content;
+  }
+}

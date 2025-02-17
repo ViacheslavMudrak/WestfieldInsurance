@@ -1,0 +1,39 @@
+﻿---
+ID: "35f1e7c7-6608-4baf-8f9d-349a7ce4ee10"
+Parent: "11b4e7bb-e9e8-40c8-a1c9-6c8c02f84bf6"
+Template: "1be999a8-5a98-4631-8ff2-2fa91d847e9b"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Breadcrumb Test/Data/full width
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240119T200234Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: full width
+    - ID: "5c6acac4-a40e-4786-8a36-31d4cc2fca63"
+      Hint: Label
+      Value: label
+    - ID: "850c63b4-39f6-47dc-8f07-6da89411d7d1"
+      Hint: Copy
+      Value: "Whether it's providing tools to put a purple octopus on the moon, or enabling teachers to bring arts-infused learning into the classroom, Crayola is passionate about helping parents and educators raise creatively alive children who we believe will grow to be inspired, original adults."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f22f6fd-bdf7-41e8-b1cc-0706d963dcde"
+    - ID: "a642e4df-20a3-43c5-804d-d929a797eb9e"
+      Hint: CtaLink
+      Value: |
+        <link linktype="internal" id="985f42cf-963d-4bcd-a2b3-a3f561cac7cb" anchor="" querystring="" target="" class="" text="Test link" title=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240119T203415Z

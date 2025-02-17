@@ -1,0 +1,20 @@
+@use '../abstracts' as *;
+
+// Exports to JS
+:export {
+  breakPointSm: $bp-sm;
+  breakPointSmMax: $bp-sm-max;
+  breakPointMd: $bp-md;
+  breakPointMdMax: $bp-md-max;
+  breakPointLg: $bp-lg;
+  breakPointLgMax: $bp-lg-max;
+  breakPointXl: $bp-xl;
+  breakPointXlMax: $bp-xl-max;
+  breakPointXxl: $bp-xxl;
+  breakPointXxlMax: $bp-xxl-max;
+  breakPointDefault: $bp;
+  breakPointDefaultMax: $bp-max;
+  transitionDuration: $transition-duration;
+  transitionEase: $transition-ease;
+  transition: $transition;
+}

@@ -1,0 +1,39 @@
+﻿---
+ID: "a6ddbb58-4787-4a1a-a665-66f9fe27800e"
+Parent: "8e9c1e23-a52a-4574-8743-798022002fd7"
+Template: "55a3b313-c17c-4ca2-8921-b8cd188da4f7"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Footers/Footer/Social Links/Facebook
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f5072e6-ddde-4dd8-9df1-aaf7a5e0e3b7"
+      Hint: Link
+      Value: |
+        <link text="Facebook" linktype="external" url="http://www.facebook.com" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231013T221024Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5cabd21-e3a2-4037-b4b5-497eacc3b9f3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231130T194501Z
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: |
+        <image mediaid="{CF50E4AE-0092-439D-B111-45C72A7487D0}" />

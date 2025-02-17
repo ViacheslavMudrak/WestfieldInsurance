@@ -1,0 +1,35 @@
+﻿---
+ID: "6a09b664-1d42-4939-838a-abd823199583"
+Parent: "87f7e155-87f0-4ff1-a78a-1dea93bada86"
+Template: "87f7e155-87f0-4ff1-a78a-1dea93bada86"
+Path: /sitecore/templates/Project/WestfieldInsurance/Pages/Leadership Bio Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{4AD81F4D-E79C-475D-A270-9194D96D46B5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231010T192355Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jason.dilday@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jason.dilday@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4efe607c-4274-4d7e-b45a-29fe4a33ea94"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231114T205753Z

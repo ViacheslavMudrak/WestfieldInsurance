@@ -1,0 +1,145 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapper {
+  padding: rem(20) 0 rem(40);
+  background-color: $white;
+  color: $color-secondary;
+  text-align: center;
+  &.darkTheme {
+    background-color: $bg-gray;
+  }
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: rem(30);
+  margin-top: 0;
+  margin-bottom: rem(5);
+  font-weight: 300;
+}
+
+.cardsItem {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  height: 100%;
+}
+
+.buttonBox {
+  display: inline-block;
+}
+
+.cardsItemBox {
+  flex: 1;
+  background-color: $white;
+  padding: rem(20);
+  color: $color-secondary;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 4px;
+  box-shadow: $box-shadow-default;
+}
+
+.cardsItemImage {
+  aspect-ratio: 4/3;
+  position: relative;
+  margin-bottom: rem(20);
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.cardsItemTitle {
+  font-size: rem(20);
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: rem(10);
+  margin-top: 0;
+}
+
+.cardsItemText {
+  a {
+    color: inherit;
+    &:focus,
+    &:hover {
+      text-shadow: 0.5px 0 0 currentColor;
+      color: inherit;
+    }
+  }
+}
+
+.richTextCardLinkText {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (min-width: $bp-md) {
+  .wrapper {
+    padding: rem(60) 0;
+  }
+  .title {
+    font-size: rem(36);
+    margin-bottom: rem(35);
+  }
+  .contentBox {
+    padding-left: rem(5);
+    padding-right: rem(5);
+  }
+  .cardsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cardsItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: $bp) {
+  .wrapper {
+    padding: rem(87) 0 rem(96);
+    :global {
+      .splide__list:has(.splide__slide:only-child) {
+        [class*='cardsItemBox'] {
+          min-width: rem(223);
+        }
+      }
+    }
+  }
+  .title {
+    font-size: rem(48);
+    margin-bottom: rem(50);
+  }
+  .contentBox {
+    padding-left: rem(8);
+    padding-right: rem(8);
+  }
+  .cardsItemBox {
+    padding: rem(30);
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .wrapper {
+    :global {
+      .splide__list:has(.splide__slide:only-child) {
+        [class*='cardsItemBox'] {
+          min-width: rem(359);
+        }
+      }
+    }
+  }
+}

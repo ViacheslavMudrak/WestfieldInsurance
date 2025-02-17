@@ -1,0 +1,169 @@
+@use 'src/sass/abstracts' as *;
+
+.searchInterface {
+  @media (min-width: $bp-xl) {
+    margin-top: 20px;
+  }
+}
+
+.resultsPageTitle {
+  margin: 0 0 20px;
+  color: $color-secondary;
+  font-size: 48px;
+  font-weight: 300;
+
+  @media (min-width: 1200px) {
+    font-size: 64px;
+  }
+}
+
+.resultsRow {
+  display: block;
+
+  @media (min-width: $bp-md) {
+    display: flex;
+  }
+}
+
+.facetsWrapper {
+  border-top: 2px solid $bg-gray;
+}
+
+.facetsCol {
+  display: none;
+
+  &:global.facetsMobileShown {
+    display: block;
+  }
+
+  @media (max-width: $bp-md-max) {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: $white;
+    height: calc((var(--vh, 1vh) * 100) - 120px);
+    padding: 40px 20px 60px;
+    overflow-y: auto;
+  }
+
+  @media (min-width: $bp-md) {
+    display: block;
+  }
+
+  &.isZoomed {
+    @media (max-width: $bp-md-max) {
+      min-height: calc((var(--vh, 1vh) * 100));
+      top: 0;
+      z-index: 5000;
+    }
+  }
+}
+
+.searchBoxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.facetsToggleHide {
+  @include resetBtn;
+  background: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_2952_5381)'%3E%3Cpath d='M25.3337 8.54667L23.4537 6.66667L16.0003 14.12L8.54699 6.66667L6.66699 8.54667L14.1203 16L6.66699 23.4533L8.54699 25.3333L16.0003 17.88L23.4537 25.3333L25.3337 23.4533L17.8803 16L25.3337 8.54667Z' fill='%23D62700'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2952_5381'%3E%3Crect width='32' height='32' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 40px;
+  height: 40px;
+  margin: 0 0 20px auto;
+  display: block;
+
+  @media (min-width: $bp-md) {
+    display: none;
+  }
+}
+
+.facetsToggleShow {
+  @include resetBtn;
+  display: block;
+  background: $color-primary;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: rem(4);
+  text-decoration: none;
+  font-size: rem(14);
+  line-height: rem(16);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    background: $color-primary-dark;
+    color: $white;
+  }
+
+  &[disabled],
+  &[aria-disabled='true'] {
+    opacity: 0.75;
+    cursor: not-allowed;
+  }
+
+  @media (min-width: $bp-md) {
+    display: none;
+  }
+}
+
+.resultInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.sortSelect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botSortSelect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botPager {
+  margin-top: 20px;
+}
+
+.facetsMobile_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+
+  @media (min-width: $bp-md) {
+    display: none;
+  }
+}
+.facetsMobile_header {
+  font-family: var(--atomic-font-family);
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0 0;
+}

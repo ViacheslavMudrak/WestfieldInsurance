@@ -1,0 +1,58 @@
+﻿---
+ID: "27eab8bf-7f19-407c-95c4-2d4c709029f1"
+Parent: "c7af5567-0803-481c-83a7-d0d58e8dc756"
+Template: "ab154d3d-1126-4ab4-ac21-8b86e6bd70ea"
+Path: /sitecore/system/Modules/PowerShell/Script Library/SPE/Vercel/Tools/Content Editor/Context Menu
+SharedFields:
+- ID: "05eecf47-0bb9-4b85-b926-0bc6dd987ec8"
+  Hint: EnableRule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{2877E38B-0AF2-46B8-AA55-6DC9653584CD}">
+        <conditions>
+          <condition
+            id="{188A8AB5-30C2-4EB8-8AA6-9FD83591F9BE}"
+            uid="C6B54BFD90584040A4D2A1642029E03F" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "613d128b-7bf2-40f4-84cb-6717408f9806"
+  Hint: ShowRule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{8D9AB426-E542-489A-AF3A-288E5C5688C2}">
+        <conditions>
+          <condition
+            id="{188A8AB5-30C2-4EB8-8AA6-9FD83591F9BE}"
+            uid="A0E867A6B52C42A08EB0E8E3932ACC52" />
+        </conditions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240314T174317Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ahmed.okour@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ahmed.okour@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d410682e-099f-4fb0-8ed7-8480eb8ce823"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ahmed.okour@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240314T193505Z

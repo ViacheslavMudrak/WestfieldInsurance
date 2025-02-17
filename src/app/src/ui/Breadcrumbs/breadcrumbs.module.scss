@@ -1,0 +1,87 @@
+@use 'src/sass/abstracts' as *;
+
+.breadcrumbs {
+  @include resetList;
+  display: none;
+  @media (min-width: $bp-md) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 30px 0;
+  }
+}
+
+.zoomed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 30px 0;
+  overflow-x: auto;
+  + .backLinkWrapper {
+    display: none;
+  }
+}
+
+.crumb {
+  font-size: rem(14);
+  line-height: 16px;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color-secondary;
+
+  a {
+    text-decoration: none;
+    color: $color-secondary;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  .last {
+    font-weight: 400;
+  }
+
+  .slash {
+    margin-left: 1rem;
+  }
+}
+
+.arrow {
+  margin-left: 8px;
+  color: $color-primary;
+}
+
+.backLinkWrapper {
+  padding: 20px 0;
+
+  .backLink {
+    color: $color-secondary;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+
+    .mobileChevron {
+      transform: rotate(180deg);
+      margin-right: 8px;
+    }
+  }
+
+  @media (min-width: $bp-md) {
+    display: none;
+
+    .mobileChevron {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+﻿---
+ID: "1ba76ea0-dfd0-41b9-8ea0-8421f63e171f"
+Parent: "e4819a48-ee1f-49d5-9776-ee1455fc5521"
+Template: "d4bb8e49-1d7f-4f00-a9dd-4f119a413490"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Footers/Footer/Footer Relevant Addresses/Westfield USA
+SharedFields:
+  - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+    Hint: __Sortorder
+    Value: 100
+Languages:
+  - Language: en
+    Versions:
+      - Version: 1
+        Fields:
+          - ID: "246d51a5-2152-45fb-aef3-d7b11a7fae62"
+            Hint: AddressLine2
+            Value: P.O. Box 5001
+          - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+            Hint: __Created
+            Value: 20231004T211857Z
+          - ID: "28234657-59ed-488b-b39f-1ab11633a97a"
+            Hint: AddressLine1
+            Value: One Park Circle
+          - ID: "28f1a4b9-b353-4afd-9ac4-d4e3a0fa2b6c"
+            Hint: City
+            Value: Westfield Center
+          - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+            Hint: __Owner
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+            Hint: __Created by
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+            Hint: __Revision
+            Value: "b0550744-91d0-4947-9864-f7d9b47352bc"
+          - ID: "8d992325-becf-486d-bec0-37b077bb696b"
+            Hint: Title
+            Value: Westfield USA
+          - ID: "9359bd73-e027-4eeb-8c7c-c8bf12029d3f"
+            Hint: StateOrProvince
+            Value: OH
+          - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+            Hint: __Updated by
+            Value: |
+              sitecore\prerak.pandey@americaneagle.com
+          - ID: "c038a991-a947-42ff-a57d-0ab015253953"
+            Hint: MapsLink
+            Value: |
+              <link text="Google Maps" linktype="external" url="https://www.google.com/maps/place/Westfield+Insurance/@41.026212,-81.9373711,17z/data=!4m14!1m7!3m6!1s0x8830b4925d6e733f:0x8cafac8c082d316b!2sWestfield+Insurance!8m2!3d41.026208!4d-81.9347962!16s%2Fg%2F1tdml3jd!3m5!1s0x8830b4925d6e733f:0x8cafac8c082d316b!8m2!3d41.026208!4d-81.9347962!16s%2Fg%2F1tdml3jd?entry=ttu" anchor="" target="" />
+          - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+            Hint: __Updated
+            Value: 20231016T161621Z
+          - ID: "f532d63c-9295-4db9-a775-ddbe71666d4c"
+            Hint: PostalCode
+            Value: 44251

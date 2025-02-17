@@ -1,0 +1,44 @@
+﻿---
+ID: "a80a0d0d-17aa-460b-9987-a9bfe7a7785b"
+Parent: "867610ea-18ef-4564-8cf8-37fe4a186a50"
+Template: "867610ea-18ef-4564-8cf8-37fe4a186a50"
+Path: /sitecore/templates/Project/WestfieldInsurance/Pages/Resource Detail Page/__Standard Values
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{81D4D132-6BBD-4578-B2E0-4B4A682F9E47}" />
+    </r>
+- ID: "f7b94d8c-a842-49f8-ab7a-2169d00426b0"
+  Hint: __Should Not Organize In Bucket
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f58dfb0-f8c7-4b8a-8c9d-90c6fb5d2d17"
+      Hint: PublishedDate
+      Value: $now
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T170042Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eea67c7b-36a7-4ec9-ac50-fa56bf014fb6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jason.dilday@americaneagle.com
+    - ID: "d006159c-8f70-4a33-b3fd-0ecb98e9c301"
+      Hint: PageTitle
+      Value: $name
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240402T135344Z

@@ -1,0 +1,26 @@
+﻿---
+ID: "262d72dd-9a68-48fb-9b34-a3732539da08"
+Parent: "4f0dd27b-1fba-4c8b-bfd0-00d29e866d68"
+Template: "4f0dd27b-1fba-4c8b-bfd0-00d29e866d68"
+Path: /sitecore/templates/Project/WestfieldInsurance/Page Content/FAQ/FAQ Item/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T185150Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cefe8181-a6c3-4f21-8444-9f13093ab92d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231114T140955Z

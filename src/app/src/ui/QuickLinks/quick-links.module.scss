@@ -1,0 +1,116 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapper {
+  background-color: $bg-gray;
+  text-align: center;
+  padding: rem(40) 0 rem(28);
+  &.light {
+    background-color: $white;
+  }
+  &.dark {
+    background: $bg-gray;
+  }
+}
+
+.title {
+  font-size: rem(30);
+  margin-top: 0;
+  margin-bottom: rem(20);
+  font-weight: 300;
+  color: $color-secondary;
+}
+
+.linksBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: rem(20);
+}
+
+.linksItem {
+  flex: 0 0;
+  flex-basis: calc(50% - rem(10));
+  min-height: rem(164);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  padding: rem(35) rem(10);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: $transition;
+  box-shadow: $box-shadow-wider;
+  position: relative;
+
+  .linksItemTitle {
+    color: $color-secondary;
+    font-weight: 700;
+    font-size: rem(20);
+  }
+
+  .linksItemImage {
+    svg,
+    img {
+      width: 48px;
+    }
+
+    @media (min-width: $bp-md) {
+      svg,
+      img {
+        width: 60px;
+      }
+    }
+  }
+}
+
+.quicklinksCardLinkText {
+  color: inherit;
+  text-decoration: none;
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: $bp-md) {
+  .wrapper {
+    padding: rem(60) 0;
+  }
+  .linksBox {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .linksItem {
+    flex-basis: rem(164);
+  }
+}
+
+@media (min-width: $bp-lg) {
+  .wrapper {
+    padding: rem(90) 0;
+  }
+  .title {
+    font-size: rem(48);
+    margin-bottom: rem(60);
+  }
+  .linksBox {
+    gap: rem(30);
+  }
+  .linksItem {
+    flex-basis: rem(208);
+    min-height: rem(208);
+    padding: rem(50) rem(20) rem(40);
+    &:focus,
+    &:hover {
+      @media (hover: hover) and (pointer: fine) {
+        transform: translateY(-20px);
+      }
+    }
+  }
+}

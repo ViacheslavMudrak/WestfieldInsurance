@@ -1,0 +1,30 @@
+﻿---
+ID: "54406b0b-a4f9-4cee-989c-86a0640847f6"
+Parent: "5adbe864-5685-4947-8095-dc2cf18ea1f9"
+Template: "1be999a8-5a98-4631-8ff2-2fa91d847e9b"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Data/Full Width widget
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231103T084314Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: Full Width widget
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd6987fa-4845-459f-a460-5eac32f4a00e"
+    - ID: "a642e4df-20a3-43c5-804d-d929a797eb9e"
+      Hint: CtaLink
+      Value: |
+        <link text="cta link" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{985F42CF-963D-4BCD-A2B3-A3F561CAC7CB}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240319T211920Z

@@ -1,0 +1,26 @@
+@use 'src/sass/abstracts' as *;
+
+.formItem {
+  justify-content: space-between;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: $transition;
+  position: relative;
+  padding: 40px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(53, 105, 128, 0.3), 0 6px 20px 0 rgba(165, 200, 213, 0.41);
+
+  @media (min-width: $bp-xl) {
+    width: calc(50% - rem(10));
+  }
+
+  .formItemTitle {
+    color: $color-secondary;
+    font-weight: 700;
+    font-size: rem(20);
+    margin-bottom: 16px;
+  }
+  .scriptWrapper {
+  }
+}

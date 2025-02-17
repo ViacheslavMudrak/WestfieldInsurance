@@ -1,0 +1,29 @@
+﻿---
+ID: "1fc05efd-c432-4646-91c9-7493124f69d5"
+Parent: "01457caf-4329-4392-b0d3-158fbd436625"
+Template: "a1915165-6029-4bd8-8916-f6e8c3f1c6fc"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Headers/Main Header/Careers/About Westfield
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230929T173252Z
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: About Westfield
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "784788e2-d14b-421a-b41c-85be5ca2e11d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240801T183204Z
+    - ID: "f0fd921c-1153-44e9-bc66-5f62fe232534"
+      Hint: Stack
+      Value: 

@@ -1,0 +1,34 @@
+@use 'src/sass/abstracts' as *;
+
+.expander {
+  transition: $transition;
+
+  // display: none;
+
+  &:global.expander-enter {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  &:global.expander-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &:global.expander-exit {
+    opacity: 1;
+  }
+
+  &:global.expander-exit-active {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  &:global.expander-exit-done {
+    display: none;
+  }
+
+  &[data-active='false']:not(:global(.expander-exit)) {
+    display: none;
+  }
+}

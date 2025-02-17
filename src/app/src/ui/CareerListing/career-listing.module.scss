@@ -1,0 +1,216 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: rem(15);
+  padding: rem(30) 0;
+  color: $color-secondary;
+}
+
+.darkTheme {
+  background-color: $bg-gray;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+.label {
+  color: $red-dark;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+  font-size: rem(14);
+}
+.title {
+  font-size: rem(30);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+.content {
+  padding-top: 0;
+  margin-bottom: 1rem;
+  p {
+    margin-top: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.buttonBox {
+  align-self: stretch;
+  margin-bottom: rem(40);
+}
+
+.linksBox {
+  display: flex;
+  flex-direction: column;
+  gap: rem(20);
+}
+.linksItem {
+  min-height: rem(95);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  padding: rem(20) rem(30) rem(20) rem(20);
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 0px 0px 40px -5px $color-card-shadow;
+  transition: $transition;
+  color: $color-secondary;
+  position: relative;
+
+  &:hover {
+    .linksItemArrow {
+      color: $white;
+
+      svg {
+        fill: $color-primary;
+      }
+    }
+  }
+}
+
+.careersCardLinkText {
+  color: inherit;
+  text-decoration: none;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+}
+
+.linksItemTitle {
+  font-weight: 700;
+  font-size: rem(20);
+  line-height: 1.2;
+  padding-right: rem(8);
+}
+
+.linksItemLabel {
+  background-color: $color-yellow-dark;
+  color: $color-secondary-dark;
+  display: inline-block;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: rem(12);
+  letter-spacing: 0.15rem;
+  vertical-align: top;
+  line-height: 1.8;
+  padding: rem(2) rem(5) 0 rem(6);
+  white-space: nowrap;
+}
+
+.linksItemLocation {
+  display: inline-block;
+  line-height: 1.5;
+  margin-top: rem(5);
+
+  &::before {
+    display: inline-block;
+    width: rem(24);
+    height: rem(24);
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='20' viewBox='0 0 14 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 0C3.13 0 0 3.13 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z' fill='%234D514D'/%3E%3C/svg%3E%0A");
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: rem(2);
+  }
+}
+
+.linksItemArrow {
+  flex: 0 0 rem(44);
+  width: rem(44);
+  height: rem(44);
+  color: $color-primary;
+  transition: $transition;
+
+  svg {
+    transition: $transition;
+    fill: none;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: $bp-md) {
+  .wrapper {
+    padding: rem(60) 0;
+  }
+  .reverse {
+    .row {
+      flex-direction: row-reverse;
+    }
+  }
+  .title {
+    font-size: rem(36);
+    line-height: rem(42);
+  }
+  .linksItemTitle {
+    font-size: rem(21);
+  }
+  .buttonBox {
+    align-self: flex-start;
+    margin-bottom: 0;
+    min-width: rem(210);
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .wrapper {
+    padding: rem(80) 0;
+  }
+  .contentBox {
+    padding-right: rem(60);
+  }
+  .title {
+    font-size: rem(48);
+    line-height: rem(56);
+    margin-bottom: rem(30);
+    padding-right: rem(40);
+  }
+  .content {
+    font-size: rem(18);
+    line-height: rem(28);
+    margin-bottom: rem(30);
+  }
+  .reverse {
+    .contentBox {
+      padding-right: 0;
+      padding-left: rem(60);
+    }
+    .title {
+      padding-right: 0;
+    }
+  }
+  .linksBox {
+    gap: rem(15);
+  }
+  .linksItem {
+    min-height: rem(124);
+    padding: rem(30);
+  }
+  .linksItemTitle {
+    font-size: rem(24);
+  }
+  .linksItemLocation {
+    font-size: rem(18);
+  }
+}

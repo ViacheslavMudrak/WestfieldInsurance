@@ -1,0 +1,74 @@
+@use 'src/sass/abstracts' as *;
+
+.container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: $white;
+  box-shadow: $box-shadow-default;
+  padding: rem(60) rem(40);
+  border-radius: 4px;
+  z-index: 1;
+  @media (min-width: $bp-xl) {
+    padding: rem(60) rem(90);
+  }
+}
+
+.hideSearchContainer {
+  display: none;
+}
+
+.toggleSearchContainer {
+  display: none;
+
+  &.zoomed {
+    display: block;
+  }
+
+  @media (min-width: $bp-md) {
+    display: block;
+  }
+}
+
+.closeSearch {
+  @include resetBtn;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  svg {
+    color: #333;
+    height: 20px;
+    width: 20px;
+  }
+  &:focus,
+  &:hover {
+    outline: 1px solid $orange;
+  }
+}
+
+.toggleSearch {
+  @include resetBtn;
+  height: 20px;
+  width: 20px;
+
+  svg {
+    color: $color-primary;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.title {
+  font-size: rem(36);
+  font-weight: 300;
+  line-height: rem(56);
+  margin-bottom: 20px;
+  color: $color-secondary;
+
+  @media (min-width: $bp-xl) {
+    font-size: rem(48);
+  }
+}

@@ -1,0 +1,74 @@
+﻿---
+ID: "47ce1316-00f8-4811-af60-25a91601e8eb"
+Parent: "985f42cf-963d-4bcd-a2b3-a3f561cac7cb"
+Template: "e96e6d40-4279-4c0b-8ef7-7c3b46f3fa85"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Prerak Test
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{837D3B4D-CB76-4EC7-AB70-D52DD0C1BFB3}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{79A590D0-A6F2-4D2A-895F-777DD68BE019}"
+              p:before="*"
+              s:ds="local:/Data/TestBenefits"
+              s:id="{F44287FF-5C8D-4CE3-B4F3-EC09BF0C3843}"
+              s:par="RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{85806B04-55FB-43B7-859A-77C8DE11386F}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/TestServicesCards"
+              s:id="{F2B65F30-E375-4044-8BE8-F0746D29754D}"
+              s:par="RenderingIdentifier&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "0cc5cdb0-0b21-402f-aa86-af2bcc043d72"
+      Hint: Schema
+      Value: |
+        {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "My First Article",
+        "author": {
+        "@type": "Person",
+        "name": "John Doe"
+        },
+        "datePublished": "2023-11-11",
+        "image": "image.jpg"
+        }
+    - ID: "1db9908b-4509-4846-8461-e155ef730fc2"
+      Hint: Title
+      Value: Prerak Test
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230925T202910Z
+    - ID: "8a3e6082-7126-4f92-9051-a0480ddd9076"
+      Hint: BreadcrumbTitle
+      Value: Prerak Test
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a12ff1da-7418-4a52-b93f-48f1c2adf484"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240214T194628Z

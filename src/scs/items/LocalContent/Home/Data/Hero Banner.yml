@@ -1,0 +1,23 @@
+﻿---
+ID: "470a86ff-d4f8-4a97-9a3f-df5205d58e6c"
+Parent: "eed32638-f50a-4db7-b163-c4a72301996e"
+Template: "0f1e9a47-7fb6-45c8-849c-408a75c51628"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Data/Hero Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231103T184724Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6f7021b-664c-4d27-87b1-63c6f5bff1c8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231103T184724Z

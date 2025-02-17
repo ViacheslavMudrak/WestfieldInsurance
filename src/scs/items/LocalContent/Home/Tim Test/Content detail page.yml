@@ -1,0 +1,63 @@
+﻿---
+ID: "b5d91bd6-da96-4550-ae54-9b3a7d0d7935"
+Parent: "dd3b7313-9d96-42a4-a77a-d722a5cbb0ee"
+Template: "2a86a425-e741-4d54-93b4-f411f57b1e3f"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Content detail page
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{993728B0-7530-4CE6-A31A-483D8A512DE9}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3999AFFE-8E4F-4B4F-BF3F-0E0B7742F674}"
+              s:ds="local:/Data/fww"
+              s:id="{8F14CDE3-5936-4CB9-B534-404C75BCEF7E}"
+              s:par="RenderingIdentifier&amp;DynamicPlaceholderId=2"
+              s:ph="/content-details-main/sxa-content-details/content-details-bottom-0-1" />
+          </d>
+        </r>
+    - ID: "1a5afef4-87ba-49c6-a78e-6afc4a9ad7ff"
+      Hint: PageTitle
+      Value: Content detail page
+    - ID: "1db9908b-4509-4846-8461-e155ef730fc2"
+      Hint: Title
+      Value: Content detail page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231205T221343Z
+    - ID: "8a3e6082-7126-4f92-9051-a0480ddd9076"
+      Hint: BreadcrumbTitle
+      Value: Content detail page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "010e2356-11db-4b89-9c14-349167adb183"
+    - ID: "963be4b9-3cd0-4450-b649-589a58ea6c1e"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{664148C5-9348-422D-A53F-CADC8F79AD7C}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240223T173424Z
+    - ID: "ff840caa-aeca-4850-8044-500cf79e8eaf"
+      Hint: Image
+      Value: |
+        <image mediaid="752cc813-ee39-4f80-afd1-27e48439d69c" />

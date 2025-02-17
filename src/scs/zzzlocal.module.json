@@ -1,0 +1,32 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Local",
+  "items": {
+    "includes": [
+      {
+        "name": "LocalContent",
+        "path": "/sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "LocalHeaderData",
+        "path": "/sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Headers",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "LocalFooterData",
+        "path": "/sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Footers",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "LocalMedia",
+        "path": "/sitecore/media library/Project/WestfieldInsurance/WestfieldInsurance/Local",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

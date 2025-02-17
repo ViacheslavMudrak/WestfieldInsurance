@@ -1,0 +1,125 @@
+@use 'src/sass/abstracts' as *;
+
+.servicesCards {
+  color: $color-secondary;
+  padding: 0 0 40px 0;
+
+  .title {
+    color: inherit;
+    font-size: rem(30);
+    font-weight: 300;
+    line-height: 35px;
+    margin: 10px 0 30px 0;
+  }
+  .label {
+    color: $red-dark;
+    font-size: rem(14);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .headingWrapper {
+    padding-top: 40px;
+    position: relative;
+  }
+
+  .accentBackground {
+    display: none;
+  }
+
+  &.accent {
+    color: $white;
+
+    .label {
+      color: $white;
+    }
+
+    .accentBackground {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: -200px;
+      z-index: -1;
+      background: $color-primary;
+      overflow: hidden;
+
+      &::after {
+        content: '';
+        background: $color-primary;
+        background: linear-gradient(
+          90deg,
+          $color-primary 50%,
+          rgba(0, 0, 0, 0) 80%,
+          rgba(0, 0, 0, 0) 100%
+        );
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      img {
+        display: block;
+        object-fit: cover;
+        margin-left: auto;
+        opacity: 0.5;
+        height: 100%;
+      }
+    }
+  }
+
+  &.dark {
+    background: $bg-gray;
+
+    .label {
+      color: $red-dark;
+    }
+  }
+
+  @media (min-width: $bp-md) {
+    padding: 0 0 60px 0;
+
+    .headingWrapper {
+      padding-top: 60px;
+    }
+
+    .title {
+      font-size: rem(36);
+      font-weight: 300;
+      line-height: 42px;
+      margin: 10px 0 30px 0;
+    }
+  }
+
+  @media (min-width: $bp-xl) {
+    padding: 0 0 90px 0;
+
+    .headingWrapper {
+      padding-top: 90px;
+    }
+
+    .title {
+      font-size: rem(48);
+      font-weight: 300;
+      line-height: 56px;
+      margin: 10px 0 30px 0;
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (min-width: $bp-md) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,151 @@
+@use 'src/sass/abstracts' as *;
+
+.title {
+  font-weight: 300;
+  font-size: rem(36);
+  line-height: 1.15;
+  margin: 0 0 rem(10);
+}
+
+.info {
+  padding-bottom: rem(20);
+  margin-bottom: rem(20);
+  border-bottom: 2px solid $bg-gray;
+}
+
+.imageBox {
+  position: relative;
+  margin: 0 0 rem(20);
+  img {
+    width: 100%;
+  }
+}
+
+.imageCaption {
+  font-size: rem(14);
+  margin-top: rem(10);
+}
+
+.leadContent {
+  font-size: rem(20);
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.mainContent {
+  line-height: 1.5;
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: inherit;
+
+    &:focus,
+    &:hover {
+      text-shadow: 0 0 1px currentColor;
+    }
+  }
+
+  p a {
+    color: inherit !important;
+
+    &:focus,
+    &:hover {
+      text-shadow: 0 0 1px currentColor;
+    }
+  }
+}
+
+@media (min-width: $bp-md) {
+  .wrapper {
+    color: $color-secondary;
+
+    & :global {
+      blockquote,
+      .blockquote,
+      .pullquote {
+        font-size: rem(21);
+        line-height: calc(24 / 21);
+      }
+    }
+  }
+  .title {
+    font-size: rem(48);
+  }
+
+  .info {
+    margin-bottom: rem(40);
+  }
+
+  .imageBox {
+    float: left;
+    margin-right: rem(20);
+    width: calc(50% - rem(20));
+    margin-bottom: rem(10);
+    &.imageRight {
+      float: right;
+      margin-right: 0;
+      margin-left: rem(20);
+    }
+  }
+
+  .leadContent {
+    font-size: rem(21);
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    & :global {
+      blockquote,
+      .blockquote,
+      .pullquote {
+        font-size: rem(24);
+        line-height: 1.25;
+      }
+      .pullquote {
+        padding-left: rem(88);
+        &::before {
+          width: rem(50);
+          height: rem(48);
+        }
+      }
+    }
+  }
+
+  .title {
+    font-size: rem(64);
+    line-height: rem(75);
+  }
+
+  .info {
+    font-size: rem(18);
+    margin-bottom: rem(30);
+    padding-bottom: rem(30);
+  }
+
+  .imageBox {
+    margin-right: rem(30);
+    width: calc(50% - rem(30));
+    &.imageRight {
+      float: right;
+      margin-right: 0;
+      margin-left: rem(30);
+    }
+  }
+
+  .imageCaption {
+    font-size: rem(16);
+  }
+
+  .leadContent {
+    font-size: rem(24);
+  }
+
+  .mainContent {
+    font-size: rem(18);
+  }
+}

@@ -1,0 +1,60 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapper {
+  margin-block-end: 1rem;
+}
+
+.selector {
+  @include resetBtn;
+  display: flex;
+  justify-content: space-between;
+  inline-size: 100%;
+  border-block-end: rem(3) solid $color-primary;
+  padding: 0.5rem 0;
+  margin-block-end: 0.5rem;
+
+  &:hover,
+  &:focus,
+  &.active {
+    color: $color-primary;
+  }
+}
+
+.arrow {
+  inline-size: rem(20);
+  block-size: rem(20);
+
+  &.active {
+    transform: rotate(180deg);
+  }
+}
+
+.tabs {
+  @media (min-width: $bp) {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+.tab {
+  @include resetBtn;
+  inline-size: 100%;
+  text-align: start;
+  border-block-end: 1px solid currentColor;
+  padding: 0.2rem 0;
+
+  &:hover,
+  &:focus,
+  &.active {
+    color: $color-primary;
+  }
+
+  @media (min-width: $bp) {
+    inline-size: auto;
+    border-width: rem(3);
+  }
+}
+
+.item {
+}

@@ -1,0 +1,31 @@
+﻿---
+ID: "51f87316-e87b-4847-8fd0-c716a691bde1"
+Parent: "37534e75-84eb-4f35-b365-70925ae84504"
+Template: "f1b16e0c-81c1-4285-8c32-323a8db7ac03"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Data/Embedded Forms
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240405T134834Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12de53f5-1f68-4f88-a454-6c4ea2c540dc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prerak.pandey@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240405T134834Z

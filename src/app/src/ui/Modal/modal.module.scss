@@ -1,0 +1,33 @@
+@use 'src/sass/abstracts' as *;
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  border: 0;
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: $box-shadow-darker;
+
+  .wrapper {
+    padding: 45px 30px 30px;
+  }
+
+  .btn {
+    @include resetBtn;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+
+    svg {
+      height: 20px;
+      width: 20px;
+    }
+  }
+}

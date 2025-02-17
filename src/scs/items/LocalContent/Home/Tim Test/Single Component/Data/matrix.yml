@@ -1,0 +1,30 @@
+﻿---
+ID: "a5cd4fd9-2c41-4fd0-b0fe-9330e759905d"
+Parent: "55759745-b91e-4c8e-b80b-a2bc34607a0b"
+Template: "f82d1b9f-9334-4ae6-a681-a0b8e35e9016"
+Path: /sitecore/content/WestfieldInsurance/Sites/WestfieldInsurance/Home/Tim Test/Single Component/Data/matrix
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240131T190044Z
+    - ID: "29dba73f-cfb0-4ae1-b85d-93f9127d0d9c"
+      Hint: ComparisonCsv
+      Value: |
+        <file mediaid="{8120A4B5-E732-4164-8457-2EB0C1F75D2B}" src="-/media/8120A4B5E732416484572EB0C1F75D2B.ashx" />
+    - ID: "3142f826-3a3a-4d1c-afa4-84e7d71385d4"
+      Hint: Title
+      Value: matrix
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f19ae987-608c-4e39-a94d-e1a9bedcc9df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tim.shanahan@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240131T190144Z

@@ -1,0 +1,98 @@
+@use 'src/sass/abstracts' as *;
+
+.wrapper {
+  padding: rem(20) 0;
+}
+
+.iframeWrapper {
+  margin-bottom: rem(10);
+}
+
+.caption {
+  font-size: rem(14);
+  color: $color-secondary;
+  margin-bottom: rem(6);
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  margin-bottom: rem(10);
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.button {
+  @include resetBtn;
+  font-size: rem(14);
+  font-weight: 700;
+  color: $color-secondary;
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  svg {
+    height: 20px;
+    width: 20px;
+    color: inherit;
+    transform: rotate(0);
+  }
+
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+
+  &.show {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.transcript {
+  color: $color-secondary;
+  max-height: 200px;
+  overflow: scroll;
+  h3 {
+    margin-bottom: 0.5em;
+    font-size: rem(24);
+  }
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: $bp-md) {
+  .wrapper {
+    margin: 0 auto;
+    width: calc(100% - rem(240));
+    padding: rem(40) 0;
+  }
+  .iframeWrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .transcript {
+    h3 {
+      font-size: rem(28);
+    }
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .transcript {
+    font-size: rem(18);
+    h3 {
+      font-size: rem(32);
+    }
+  }
+}
